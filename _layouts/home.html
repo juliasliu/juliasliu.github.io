@@ -14,7 +14,7 @@ layout: default
 		<div class="banner-container">
 		    <section class="home-section">
 			    <div class="col-lg-8 mx-auto">
-			    	<img class="heading memoji" src="/assets/img/profiles/memoji_100.gif" alt="julia memoji" />
+			    	<img class="heading memoji" src={{ "/assets/img/profiles/memoji_100.gif" | relative_url }} alt="julia memoji" />
 				   	<h1 class="heading">Hi, I am <span style="color: #00cc96;">Julia Liu</span>.</h1>
 			    	<h6 class="heading mb-4" style="line-height: 18pt;">
 			    		Junior undergrad <span class="highlight">@UC Berkeley</span> studying Computer Science & Business Administration.
@@ -56,13 +56,18 @@ layout: default
 						    	<p>{{ work.description }}
 						    	</p>
 									{% for link in work.links %}
-								    <a class="btn btn-dark mx-2" target="_blank" href="{{ link.url }}" class="{{ link.style }}">
+								    <a target="_blank" href="{{ link.url }}"
+										{% if link.style == "website" %} class="btn btn-dark mx-2 website"
+										{% elsif link.style == "ios" %} class="btn btn-dark mx-2 ios"
+										{% elsif link.style == "android" %} class="btn btn-dark mx-2 android"
+										{% else %}
+										{% endif %}>
 								    	<span>{{ link.title }}</span>
 								    </a>
 									{% endfor %}
 						    </div>
 						    <div class="col-lg-6 image-col">
-						    	<img src="{{ work.image }}" alt="" />
+						    	<img src="{{ work.image | relative_url }}" alt="" />
 						    </div>
 						</div>
 					{% endif %}
@@ -79,7 +84,7 @@ layout: default
 			    <div class="posts">
 						{% for post in site.posts limit:3 %}
 								<a class="card image-card" href="{{ post.url }}">
-					    		<img src="{{ post.image }}" alt="" />
+					    		<img src="{{ post.image | relative_url }}" alt="" />
 					    		<h6 class="image-card-title mt-3">{{ post.title}}</h6>
 					    		<p class="light">{{ post.date | date: "%b %-d, %Y" }}</p>
 					    	</a>

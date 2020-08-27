@@ -12,7 +12,7 @@ layout: default
 	            <div class="title"><span class="highlight">Contact Me</span></div>
 	    		<div class="subtitle">Look forward to hearing from you!</div>
 
-				<form class="form-horizontal" action="/contact" id="contact-form" method="post" role="form">
+				<form class="form-horizontal" action="https://formspree.io/mwkrdpyy" id="contact-form" method="post" role="form">
 		          <fieldset>
 		            <legend class="text-center"><!-- Contact me --></legend>
 
@@ -20,7 +20,7 @@ layout: default
 		            <div class="form-group">
 		              <label class="col-md-2 control-label" for="name">Name</label>
 		              <div class="col-md-10">
-		                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+		                <input id="name" name="name" type="text" placeholder="Your name" class="form-control" required>
 		              </div>
 		            </div>
 
@@ -28,7 +28,7 @@ layout: default
 		            <div class="form-group">
 		              <label class="col-md-2 control-label" for="email">E-mail</label>
 		              <div class="col-md-10">
-		                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+		                <input id="email" name="_replyto" type="text" placeholder="Your email" class="form-control" required>
 		              </div>
 		            </div>
 
@@ -36,7 +36,7 @@ layout: default
 		            <div class="form-group">
 		              <label class="col-md-2 control-label" for="message">Message</label>
 		              <div class="col-md-10">
-		                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+		                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5" required></textarea>
 		              </div>
 		            </div>
 

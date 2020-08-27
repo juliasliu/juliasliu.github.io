@@ -16,14 +16,19 @@ layout: default
 			    	<p class="light">{{ page.date }}</p>
 			    	<p>{{ page.description }}
 			    	</p>
-            {% for link in work.links %}
-              <a class="btn btn-dark mx-2" target="_blank" href="{{ link.url }}" class="{{ link.style }}">
+            {% for link in page.links %}
+							<a target="_blank" href="{{ link.url }}"
+							{% if link.style == "website" %} class="btn btn-dark mx-2 website"
+							{% elsif link.style == "ios" %} class="btn btn-dark mx-2 ios"
+							{% elsif link.style == "android" %} class="btn btn-dark mx-2 android"
+							{% else %}
+							{% endif %}>
                 <span>{{ link.title }}</span>
               </a>
             {% endfor %}
 			    </div>
 			    <div class="col-lg-6 image-col">
-			    	<img src="{{ page.image }}" alt="" />
+			    	<img src="{{ page.image | relative_url }}" alt="" />
 			    </div>
 			</div>
 

@@ -4,45 +4,44 @@
 <head>
 	<title>Julia Liu</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Portfolio">
-    <meta name="author" content="Julia Liu">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Portfolio">
+  <meta name="author" content="Julia Liu">
 
-	<link rel="icon" href="/assets/img/logos/logo.png">
+	<link rel="icon" href={{ "/assets/img/logos/logo.png" | relative_url }}>
 
 	<!-- Custom styles -->
-	<link rel="stylesheet" href="/assets/css/style.css" />
-	<link rel="stylesheet" href="/assets/css/header.css" />
-	<link rel="stylesheet" href="/assets/css/footer.css" />
-	<link rel="stylesheet" href="/assets/css/home.css" />
-	<link rel="stylesheet" href="/assets/css/about.css" />
-	<link rel="stylesheet" href="/assets/css/work.css" />
-	<link rel="stylesheet" href="/assets/css/blog.css" />
-	<link rel="stylesheet" href="/assets/css/timeline.css"/>
-	<link rel="stylesheet" href="/assets/css/animate.css" />
-	<link rel="stylesheet" href="/assets/css/background.css"/>
+	<link rel="stylesheet" href={{ "/assets/css/style.css" | relative_url }} />
+	<link rel="stylesheet" href={{ "/assets/css/header.css" | relative_url }} />
+	<link rel="stylesheet" href={{ "/assets/css/footer.css" | relative_url }} />
+	<link rel="stylesheet" href={{ "/assets/css/home.css" | relative_url }} />
+	<link rel="stylesheet" href={{ "/assets/css/about.css" | relative_url }} />
+	<link rel="stylesheet" href={{ "/assets/css/work.css" | relative_url }} />
+	<link rel="stylesheet" href={{ "/assets/css/blog.css" | relative_url }} />
+	<link rel="stylesheet" href={{ "/assets/css/timeline.css" | relative_url }} />
+	<link rel="stylesheet" href={{ "/assets/css/animate.css" | relative_url }} />
+	<!-- <link rel="stylesheet" href="/assets/css/background.css"/> -->
 
-    <!-- Bootstrap -->
-    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href={{ "/assets/vendor/bootstrap/css/bootstrap.min.css" | relative_url }} rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link href="/assets/vendor/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
-    <link href="/assets/vendor/fontawesome/css/fontawesome.css" rel="stylesheet">
-  	<link href="/assets/vendor/fontawesome/css/brands.css" rel="stylesheet">
-  	<link href="/assets/vendor/fontawesome/css/regular.css" rel="stylesheet">
-  	<link href="/assets/vendor/fontawesome/css/solid.css" rel="stylesheet">
-  	<link href="/assets/vendor/fontawesome/css/v4-shims.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href={{ "/assets/vendor/fontawesome/css/all.css" | relative_url }} rel="stylesheet"> <!--load all styles -->
+  <link href={{ "/assets/vendor/fontawesome/css/fontawesome.css" | relative_url }} rel="stylesheet">
+	<link href={{ "/assets/vendor/fontawesome/css/brands.css" | relative_url }} rel="stylesheet">
+	<link href={{ "/assets/vendor/fontawesome/css/regular.css" | relative_url }} rel="stylesheet">
+	<link href={{ "/assets/vendor/fontawesome/css/solid.css" | relative_url }} rel="stylesheet">
+	<link href={{ "/assets/vendor/fontawesome/css/v4-shims.css" | relative_url }} rel="stylesheet">
 
-    <!-- Other fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-    <link href="/assets/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <!-- Other fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
 
 	<!-- Twitter embed -->
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-    <!-- Medium embed -->
-    <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+  <!-- Medium embed -->
+  <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142504345-1"></script>
@@ -54,34 +53,30 @@
 	  gtag('config', 'UA-142504345-1');
 	</script>
 
+	{% feed_meta %}
+  {% seo %}
+
 </head>
-<body ng-app="myApp" ng-controller="MainCtrl">
+<body>
 	 {% include header.html %}
 	 {{ content }}
 	 {% include footer.html %}
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="/assets/vendor/jquery/jquery.min.js"></script>
-    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src={{ "/assets/vendor/jquery/jquery.min.js" | relative_url }}></script>
+  <script src={{ "/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" | relative_url }}></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src={{ "/assets/vendor/jquery-easing/jquery.easing.min.js" | relative_url }}></script>
 
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-	<script src="https://unpkg.com/scrollreveal"></script>
-
-	<script src="/assets/js/app.js"></script>
+  <!-- Scripts -->
+	<script src={{ "/assets/js/app.js" | relative_url }}></script>
 
 	<!-- Wow animations -->
-	<script src="/assets/vendor/wowjs/dist/wow.min.js"></script>
+	<script src={{ "/assets/vendor/wowjs/dist/wow.min.js" | relative_url }}></script>
 	<script>
-        new WOW().init();
-    </script>
+    new WOW().init();
+  </script>
 
 </body>
 </html>
