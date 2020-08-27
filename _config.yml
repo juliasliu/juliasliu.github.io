@@ -65,7 +65,7 @@ defaults:
       layout: "default"
 
 # Includes
-exclude:
+include:
   assets/vendor/
 
 # Exclude from processing.
