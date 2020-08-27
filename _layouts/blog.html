@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="body">
+	<div class="blog">
+
+		<!-- Blog -->
+	  	<section class="content">
+
+	    	<div class="title"><span class="highlight">Blog Posts</span></div>
+	    	<div class="subtitle">Keeping up with my spontaneously inspired projects and late-night coffee thoughts.</div>
+
+				<div class="blog-posts posts">
+					{% for post in site.posts %}
+							<a class="card image-card" href="{{ post.url }}">
+								<img src="{{ post.image }}" alt="" />
+								<h6 class="image-card-title mt-3">{{ post.title}}</h6>
+								<p class="light">{{ post.date | date: "%b %-d, %Y" }}</p>
+							</a>
+					{% endfor %}
+				</div>
+    	</section>
+    	<!-- End blog -->
+
+		<!-- <div class="row youtube">
+			<section class="content" id="content1">
+				<h2 class="title">Vlogs</h2>
+				<div class="row youtube-video" ng-style="videoStyle">
+					<iframe id="youtube_video" ng-src="{{ videoSrc }}" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</section>
+		</div>
+
+		<div class="row twitter">
+			<section class="content" id="content2">
+				<h2 class="title">Twitter</h2>
+				<a class="twitter-timeline"
+				data-height="500"
+				href="https://twitter.com/julia_s_liu?ref_src=twsrc%5Etfw">Tweets by julia_s_liu</a>
+			</section>
+		</div> -->
+
+	    <!-- <section class="content" id="content3">
+			<h2 class="title">Medium</h2>
+			<div id="retainable-rss-embed"
+				data-rss="https://medium.com/feed/@juliasliu"
+				data-maxcols="3"
+				data-layout="grid"
+				data-poststyle="inline"
+				data-readmore="Read the rest"
+				data-buttonclass="btn btn-primary"
+				data-offset="-100"></div>
+		</section> -->
+
+		<!-- <section class="content" id="content4">
+			<h2 class="title">Instagram</h2>
+
+		</section>
+
+		<section class="content" id="content5">
+			<h2 class="title">Twitch</h2>
+
+		</section>	  -->
+
+	</div>
+</div>

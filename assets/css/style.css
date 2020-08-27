@@ -1,0 +1,323 @@
+/*
+
+COLORS
+Primary: #57B0B2
+Light primary: #DEEDED
+Dark primary: #0C7A8A
+
+Secondary: #7D6D6D
+Light secondary: #AD8F8F
+
+Tertiary: #F0F0F0
+
+*/
+
+html, body {
+	background-color: #fafafa !important;
+	font-family: 'Source Sans Pro', sans-serif !important;
+	font-weight: 500 !important;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600 !important;
+}
+
+p, a, li {
+	font-weight: 500 !important;
+}
+
+a:not([href]) {
+	color: #fff !important;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+a, button {
+	transition: 0.5s;
+}
+
+.btn {
+	border-radius: 0 !important;
+}
+
+ul, ol {
+	list-style: none;
+	padding: 0;
+}
+
+section {
+	position: relative;
+    z-index: 100;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.text-align-left {
+	text-align: left;
+}
+.text-align-center {
+	text-align: center;
+}
+.center {
+	justify-content: center;
+}
+
+.light {
+	color: #aaa;
+}
+
+.hidden {
+	display: none;
+}
+
+.highlight {
+	display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+	background-color: transparent !important;
+}
+
+.highlight:before {
+	content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(65,157,120,0.14);
+}
+
+.highlight-link {
+	text-transform: uppercase;
+	padding: 0 1rem;
+	font-weight: 500;
+	font-size: 1rem;
+	color: #6c757d !important;
+	transition: color 0.5s;
+	display: inline-block;
+  position: relative;
+	background-color: transparent !important;
+}
+
+.highlight-link:hover {
+	color: #000 !important;
+}
+
+.highlight-link:hover:before {
+	content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  height: 50%;
+  background-color: rgba(65,157,120,0.14);
+  animation: highlight .5s forwards;
+}
+
+@keyframes highlight {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+.rotate {
+    transform: rotate(-90deg);
+}
+
+.mark {
+	color: #00966e;
+	background: none !important;
+	padding: 0 !important;
+}
+
+.content {
+	text-align: center;
+	padding: 4rem 0;
+}
+
+.title {
+	font-size: 2rem;
+	margin: 1rem 0;
+	display: inline-block;
+}
+
+.subtitle {
+	margin-bottom: 3rem;
+}
+
+.heading {
+	margin-bottom: 1rem;
+}
+
+.content .row {
+	justify-content: center;
+	margin: 0 5rem;
+}
+
+.card {
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+.card img {
+	width: 100%;
+	object-size: cover;
+}
+
+.image-card {
+    background: none !important;
+    display: block;
+    position: relative;
+}
+
+.image-card .image-card-text {
+	display: none;
+}
+
+.image-card:hover {
+	cursor: pointer;
+}
+
+.image-card:hover img {
+	animation: card .5s forwards;
+}
+
+.image-card:hover .image-card-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.image-card .image-card-title  {
+	color: #000 !important;
+}
+
+@keyframes card {
+	to {
+		margin: 5% 5% 0% 5%;
+		width: 90%;
+		filter: sepia(10%) saturate(50%) brightness(70%) hue-rotate(90deg);
+	}
+}
+
+.text {
+	padding: 0;
+	margin: 2rem;
+}
+
+.form-group {
+	display: flex;
+}
+
+/* SLIDES */
+
+.slide-navbar ul {
+	display: flex;
+    margin: 0 5rem;
+    text-align: center;
+}
+
+.slide-navbar ul li {
+	padding: 1rem 2rem;
+	cursor: pointer;
+	position: relative;
+}
+
+.slide-navbar ul li:nth-child(odd) {
+	background: rgba(0,0,0,0.075);
+}
+
+.slide-navbar ul li:nth-child(even) {
+	background: rgba(0,0,0,0.05);
+}
+
+.slide-navbar ul li.active {
+	background: rgba(65,157,120,0.75);
+	color: #fff;
+}
+
+.slide-navbar ul li.active .light {
+	color: rgba(255,255,255,0.75);
+}
+
+.slide-navbar ul li:not(.active):hover:before {
+	content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  z-index: 0;
+  height: 100%;
+  background: rgba(65,157,120,.15);
+  animation: tabhover .5s forwards;
+}
+
+@keyframes tabhover {
+	to {
+		width: 100%;
+	}
+}
+
+.slide {
+	display: none;
+	visibility: visible !important;
+	transition: display .5s;
+	background: rgba(0,0,0,0.02);
+	margin: 0 5rem;
+	padding: 4rem 2rem;
+}
+
+.slide.active {
+	display: flex;
+	visibility: visible !important;
+}
+
+.post-container {
+	padding: 0 10rem;
+}
+
+/* BACKGROUND RECTANGLES */
+
+.background {
+	position: absolute;
+	z-index: 0;
+}
+
+/* ANIMATION */
+
+.animated.slower {
+	animation-duration: 3s;
+}
+
+/* CONTACT */
+
+.contact .section {
+	padding: 50px 0;
+}

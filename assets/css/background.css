@@ -1,0 +1,37 @@
+@import 'compass';
+
+.paper {
+  position: relative;
+}
+.paper::before, .paper::after {
+  background: linear-gradient(22deg, #000 25%, #fff 26%), linear-gradient(30deg, #000 80%, #fff 68%), linear-gradient(25deg, #000 28%, #fff 7%), linear-gradient(20deg, #000 56%, #fff 48%), linear-gradient(19deg, #000 100%, #fff 40%), linear-gradient(3deg, #000 44%, #fff 6%), linear-gradient(13deg, #000 14%, #fff 14%), linear-gradient(25deg, #000 38%, #fff 26%), linear-gradient(27deg, #000 10%, #fff 4%), linear-gradient(6deg, #000 85%, #fff 61%), linear-gradient(10deg, #000 48%, #fff 7%), linear-gradient(12deg, #000 15%, #fff 9%), linear-gradient(17deg, #000 55%, #fff 50%), linear-gradient(10deg, #000 92%, #fff 24%), linear-gradient(11deg, #000 81%, #fff 81%), linear-gradient(20deg, #000 26%, #fff 23%), linear-gradient(11deg, #000 32%, #fff 2%), linear-gradient(19deg, #000 8%, #fff 5%), linear-gradient(9deg, #000 95%, #fff 30%), linear-gradient(2deg, #000 94%, #fff 16%), linear-gradient(1deg, #000 25%, #fff 4%), linear-gradient(4deg, #000 77%, #fff 70%), linear-gradient(2deg, #000 80%, #fff 27%), linear-gradient(17deg, #000 79%, #fff 42%), linear-gradient(7deg, #000 73%, #fff 28%), linear-gradient(8deg, #000 73%, #fff 57%), linear-gradient(14deg, #000 18%, #fff 13%), linear-gradient(15deg, #000 83%, #fff 45%), linear-gradient(21deg, #000 69%, #fff 18%), linear-gradient(15deg, #000 87%, #fff 68%), linear-gradient(14deg, #000 13%, #fff 6%), linear-gradient(19deg, #000 56%, #fff 24%), linear-gradient(1deg, #000 64%, #fff 44%), linear-gradient(17deg, #000 90%, #fff 83%), linear-gradient(29deg, #000 37%, #fff 11%), linear-gradient(9deg, #000 59%, #fff 47%), linear-gradient(25deg, #000 24%, #fff 8%), linear-gradient(18deg, #000 55%, #fff 48%), linear-gradient(16deg, #000 8%, #fff 4%);
+  background-blend-mode: difference;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.paper::after {
+  filter: invert(1);
+  opacity: 0.5;
+  top: 1px;
+}
+.color-overlay {
+  background: rgba(255, 255, 255, 1);
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.paper {
+  line-height: 1.5;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}

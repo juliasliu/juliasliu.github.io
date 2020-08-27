@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<div class="body">
+	<div class="projects">
+
+	<!-- <section class="content">
+		  <div class="row work">
+		  	<div class="thumbnail-list work">
+			    <div class="thumbnail" ng-repeat="work in works" thumbnail-directive>
+					<div class="thumbnail-image">
+					    <img ng-src="{{ work.image }}"/>
+					</div>
+					<div class="thumbnail-info">
+				        <h2 class="name">{{ work.title }}</h2>
+				        <h3 class="caption"><a ng-href="{{ work.link }}">{{ work.location}} <i class="fas fa-link"></i></a></h3>
+				        <h6 class="time">{{ work.date }}</h6>
+				        <p class="description">{{ work.description }}</p>
+			      	</div>
+			    </div>
+			  </div>
+		</div>
+
+		<div class="row">
+			<div class="thumbnail-list project">
+
+			  <div class="thumbnail" ng-repeat="work in works" thumbnail-directive>
+			    <div class="thumbnail-container">
+				    <div class="thumbnail-image">
+				      <img ng-src="{{ work.image }}"/>
+				    </div>
+				    <div class="thumbnail-info">
+				      <h2 class="name">{{ work.name }}</h2>
+				      <h3 class="caption" ng-style="{{ work.captionColor }}">{{ work.caption }}</h3>
+				      <h6 class="time">{{ work.date }}</h6>
+				      <p class="description">{{ work.description }}</p>
+				      <p class="skills">{{ work.skills }}</p>
+				      <a ng-repeat="link in work.links" ng-href="{{ work.url }}" ng-class="link.style" class="btn">
+				      	<span>{{ link.title }}</span>
+				      </a>
+				    </div>
+				</div>
+			  </div>
+
+			</div>
+	   	</div>
+
+	  </section> -->
+
+	  <!-- Work -->
+	  <section class="content">
+
+	    	<div class="title"><span class="highlight">Work Portfolio</span></div>
+
+		    <div class="works mt-4">
+					{% for work in site.works %}
+		    	<a class="card image-card" href="{{ work.url }}">
+		    		<img src="{{ work.image }}" alt="" />
+		    		<div class="image-card-text">
+			    		<h3 class="mt-3">{{ work.name }}</h3>
+			    		<h5>{{ work.caption }}</h5>
+		    		</div>
+		    	</a>
+					{% endfor %}
+		    </div>
+
+    	</section>
+    	<!-- End work -->
+
+	</div>
+</div>

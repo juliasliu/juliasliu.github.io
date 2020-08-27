@@ -1,0 +1,13 @@
+.blog .content {
+	width: 100%;
+	text-align: center;
+}
+
+.blog .youtube-video {
+	box-shadow: 0 3px 10px rgba(0,0,0,.25);
+}
+
+.blog .youtube-video iframe {
+	width: 100%;
+	height: 100%;
+}

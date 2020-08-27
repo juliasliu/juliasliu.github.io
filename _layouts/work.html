@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="body">
+	<div class="project">
+
+	    <!-- Project -->
+	   <section class="content">
+
+	    	<div class="title"><span class="highlight">{{ page.name }}</span></div>
+
+		    <div class="row mt-4">
+			    <div class="col-lg-6">
+			    	<h4>{{ page.caption }}</h4>
+			    	<p class="light">{{ page.date }}</p>
+			    	<p>{{ page.description }}
+			    	</p>
+            {% for link in work.links %}
+              <a class="btn btn-dark mx-2" target="_blank" href="{{ link.url }}" class="{{ link.style }}">
+                <span>{{ link.title }}</span>
+              </a>
+            {% endfor %}
+			    </div>
+			    <div class="col-lg-6 image-col">
+			    	<img src="{{ page.image }}" alt="" />
+			    </div>
+			</div>
+
+	    </section>
+
+	</div>
+</div>

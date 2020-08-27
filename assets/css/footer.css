@@ -1,0 +1,75 @@
+/* FOOTER */
+
+.footer {
+	position: relative;
+	background: white;
+	margin-top: 4rem;
+	z-index: 100;
+}
+
+.footer .container {
+	padding: 20px;
+}
+
+.footer .footer-links {
+	padding: 20px;
+}
+
+.footer .footer-links .social-link {
+	margin: 0 1rem;
+}
+
+.footer .footer-links .social-link i {
+	color: transparent;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #6c757d;
+	transition: color .5s;
+}
+
+.footer .footer-links .social-link:hover i {
+	color: #6c757d;
+}
+
+.footer .footer-caption {
+	text-transform: uppercase;
+}
+
+.footer .footer-caption i {
+	padding: 5px;
+}
+
+.social-link {
+	font-size: 1.2rem;
+    border-radius: 50%;
+}
+
+.social-link:hover {
+	text-decoration: none;
+	color: #000 !important;
+}
+
+/* .social-link.google {
+	background-color: #db3236 !important;
+}
+
+.social-link.facebook {
+	background-color: #3b5998 !important;
+}
+
+.social-link.instagram {
+	background: #f09433;
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.social-link.twitter {
+	background-color: #00a3ed !important;
+}
+
+.social-link.linkedin {
+	background-color: #0077B5 !important;
+}
+
+.social-link.github {
+	background-color: #171515 !important;
+} */

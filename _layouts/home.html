@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<div class="body">
+	<div class="home">
+
+		<!-- Home -->
+
+		<!-- <div class="background one"></div>
+		<div class="background two"></div> -->
+
+		<!-- Banner -->
+		<div class="banner-container">
+		    <section class="home-section">
+			    <div class="col-lg-8 mx-auto">
+			    	<img class="heading memoji" src="/assets/img/profiles/memoji_100.gif" alt="julia memoji" />
+				   	<h1 class="heading">Hi, I am <span style="color: #00cc96;">Julia Liu</span>.</h1>
+			    	<h6 class="heading mb-4" style="line-height: 18pt;">
+			    		Junior undergrad <span class="highlight">@UC Berkeley</span> studying Computer Science & Business Administration.
+			    		Full-stack web and mobile app developer, technical project manager, and product designer.
+			    		Growth Equity Intern <span class="highlight">@Greycroft</span>.
+			    		Formerly STEP Intern <span class="highlight">@Google</span>.
+			    	</h6>
+					<a class="btn btn-dark" href="about">About me</a>
+					<a class="btn btn-dark mx-3" href="work">See my work</a>
+				</div>
+	    	</section>
+	    </div>
+    	<!-- End banner -->
+
+    	<!-- Work -->
+	    <section class="content">
+
+				<nav class="slide-navbar">
+					<ul>
+						{% for work in site.works %}
+							{% if work.featured %}
+							<li id="item{{ forloop.index0 }}" onclick="changeSlide({{ forloop.index0 }})"
+								{% if forloop.first %} class="slide-navbar-item active" {% else %} class="slide-navbar-item" {% endif %}>
+								<strong>{{ work.name }}</strong><br>
+								<strong class="light">{{ work.caption }}</strong>
+							</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+				</nav>
+
+				{% for work in site.works %}
+					{% if work.featured %}
+						<div id="slide{{ forloop.index0 }}"
+						{% if forloop.first %} class="slide work-slide active" {% else %} class="slide work-slide" {% endif %}>
+						    <div class="col-lg-6">
+						    	<h4>{{ work.name }}</h4>
+						    	<p class="light">{{ work.date }}</p>
+						    	<p>{{ work.description }}
+						    	</p>
+									{% for link in work.links %}
+								    <a class="btn btn-dark mx-2" target="_blank" href="{{ link.url }}" class="{{ link.style }}">
+								    	<span>{{ link.title }}</span>
+								    </a>
+									{% endfor %}
+						    </div>
+						    <div class="col-lg-6 image-col">
+						    	<img src="{{ work.image }}" alt="" />
+						    </div>
+						</div>
+					{% endif %}
+				{% endfor %}
+    	</section>
+    	<!-- End work -->
+
+		<!-- Blog -->
+	    <section class="content">
+
+	    	<div class="title"><span class="highlight">Recent Posts</span></div>
+	    	<div class="subtitle">Keeping up with my spontaneously inspired projects and late-night coffee thoughts.</div>
+
+			    <div class="posts">
+						{% for post in site.posts limit:3 %}
+								<a class="card image-card" href="{{ post.url }}">
+					    		<img src="{{ post.image }}" alt="" />
+					    		<h6 class="image-card-title mt-3">{{ post.title}}</h6>
+					    		<p class="light">{{ post.date | date: "%b %-d, %Y" }}</p>
+					    	</a>
+						{% endfor %}
+			    </div>
+			    <a href="blog" class="highlight-link my-4">
+		    		Read more <i class="fa fa-angle-right"></i>
+			    </a>
+    	</section>
+    	<!-- End blog -->
+
+    </div>
+</div>

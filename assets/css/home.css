@@ -1,0 +1,50 @@
+/* HOME */
+
+.home {
+	position: relative;
+}
+
+/* BANNER SECTION */
+
+.banner-container {
+	padding-top: 10vh;
+	height: 80vh;
+}
+
+.home-section {
+	padding: 0 5rem;
+	display: flex;
+	text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+	.home-section {
+		width: 80%;
+	}
+}
+
+.memoji {
+	max-height: 25vh;
+}
+
+/* WORK SLIDES */
+
+.image-col img {
+	width: 100%;
+}
+
+/* BLOG POSTS */
+
+.posts {
+	display: flex;
+	justify-content: space-between;
+    margin: 0 5rem;
+}
+
+.blog-posts {
+	flex-wrap: wrap;
+}
+
+.posts .card {
+	width: 30%;
+}

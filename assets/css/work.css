@@ -1,0 +1,170 @@
+/* PROJECT THUMBNAILS (NEW) */
+
+.works {
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 5rem;
+}
+
+.works .card {
+	position: relative;
+	max-width: 45%;
+	min-width: 45%;
+	min-height: 350px;
+	margin: 2.5%;
+}
+
+.btn span:before {
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.btn.website span:before {
+	font-family: "Font Awesome 5 Free";
+	content: '\f2d2';
+}
+
+.btn.ios span:before {
+	font-family: "Font Awesome 5 Brands";
+	content: '\f370';
+}
+
+.btn.android span:before {
+	font-family: "Font Awesome 5 Brands";
+	content: '\f3ab';
+}
+
+/* .thumbnail-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+	position: relative;
+  max-width: 50%;
+  padding: 20px 40px 20px 0;
+  min-width: 350px;
+}
+
+.thumbnail-container {
+	position: relative;
+  width: 100%;
+}
+
+.thumbnail .thumbnail-image, .thumbnail .thumbnail-info {
+  border-radius: 0px;
+}
+
+.thumbnail .thumbnail-image {
+  padding: 0;
+  z-index: 0;
+}
+
+.thumbnail .thumbnail-image img {
+  border-radius: 0px;
+  width: 100%;
+  margin: 0;
+}
+
+.thumbnail .thumbnail-info {
+  position: absolute;
+  bottom: -50%;
+  width: 100%;
+  padding-right: 20px;
+  height: 290px;
+  padding: 30px;
+  z-index: 100;
+  text-align: left;
+  background: #fff;
+  overflow-y: hidden;
+  transition: .5s ease;
+}
+
+.thumbnail:hover .thumbnail-info {
+  height: 360px;
+}
+
+.thumbnail .thumbnail-info .name {
+  font-size: 1.25em;
+}
+
+.thumbnail .thumbnail-info .caption {
+  font-size: 1.15em;
+}
+
+.thumbnail .thumbnail-info .time {
+  color: #aaa;
+}
+
+.thumbnail .thumbnail-info .description {
+  font-size: 0.9em;
+}
+
+.thumbnail .thumbnail-info .skills {
+	font-style: oblique;
+	font-size: 0.9em;
+}
+
+.thumbnail .thumbnail-info .btn {
+	color: #fff;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnail .thumbnail-info .btn span:before {
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.thumbnail .thumbnail-info .btn.website {
+	background: #2D93AD;
+}
+
+.thumbnail .thumbnail-info .btn.website:hover {
+	background: #1c7b94;
+}
+
+.thumbnail .thumbnail-info .btn.website span:before {
+	font-family: "Font Awesome 5 Free";
+	content: '\f2d2';
+}
+
+.thumbnail .thumbnail-info .btn.ios {
+	background: #88AB75;
+}
+
+.thumbnail .thumbnail-info .btn.ios:hover {
+	background: #6d9159;
+}
+
+.thumbnail .thumbnail-info .btn.ios span:before {
+	font-family: "Font Awesome 5 Brands";
+	content: '\f370';
+}
+
+.thumbnail .thumbnail-info .btn.android {
+	background: #7D7C84;
+}
+
+.thumbnail .thumbnail-info .btn.android:hover {
+	background: #6a687a;
+}
+
+.thumbnail .thumbnail-info .btn.android span:before {
+	font-family: "Font Awesome 5 Brands";
+	content: '\f3ab';
+}
+
+.thumbnail .thumbnail-info .btn.report {
+	background: #DE8F6E;
+}
+
+.thumbnail .thumbnail-info .btn.report:hover {
+	background: #c97c5b;
+}
+
+.thumbnail .thumbnail-info .btn.report span:before {
+	font-family: "Font Awesome 5 Free";
+	content: '\f1c1';
+} */
