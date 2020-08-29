@@ -13,7 +13,7 @@ layout: default
 		    <div class="row mt-4">
 			    <div class="col-lg-6">
 			    	<h4>{{ page.caption }}</h4>
-			    	<p class="light">{{ page.date }}</p>
+			    	<p class="light">{{ page.start | date: "%b %Y" }} - {% if page.end == "present" %} present {% else %} {{ page.end | date: "%b %Y" }} {% endif %}</p>
 			    	<p>{{ page.description }}
 			    	</p>
             {% for link in page.links %}

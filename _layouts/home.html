@@ -23,7 +23,7 @@ layout: default
 			    		Formerly STEP Intern <span class="highlight">@Google</span>.
 			    	</h6>
 					<a class="btn btn-dark" href="about">About me</a>
-					<a class="btn btn-dark mx-3" href="work">See my work</a>
+					<a class="btn btn-dark mx-3" href="works">See my work</a>
 				</div>
 	    	</section>
 	    </div>
@@ -52,7 +52,7 @@ layout: default
 						{% if forloop.first %} class="slide work-slide active" {% else %} class="slide work-slide" {% endif %}>
 						    <div class="col-lg-6">
 						    	<h4>{{ work.name }}</h4>
-						    	<p class="light">{{ work.date }}</p>
+						    	<p class="light">{{ work.start | date: "%b %Y" }} - {% if work.end == "present" %} present {% else %} {{ work.end | date: "%b %Y" }} {% endif %}</p>
 						    	<p>{{ work.description }}
 						    	</p>
 									{% for link in work.links %}
