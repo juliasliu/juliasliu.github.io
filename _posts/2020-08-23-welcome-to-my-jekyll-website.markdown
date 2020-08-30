@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Welcome to my Jekyll website!
-date:   2020-08-23 12:39:31 -0700
+date:   2020-08-30 14:39:31 -0700
 categories: jekyll update
 image: /assets/img/backgrounds/cafe-coffee-drink.jpg
 ---
