@@ -1,9 +1,11 @@
 var addWow = function() {
 	/* ADD ANIMATIONS WHEN SCROLLED */
-	$('#header, #footer, .background, .home-section, .title, .subtitle, .heading, a, .btn, .card, .slide, form').addClass('wow slow');
+	$('#header, #footer, .background, .home-section, .title, .subtitle, .heading, p, a, .btn, .card, .slide, form').addClass('wow slow');
 	$('.about-section').attr('data-wow-delay', "1s");
 	$('#header, #footer').addClass('flipInX');
-	$('.home-section, .title, .subtitle, .heading, a, .btn, .card, .slide, form').addClass('fadeIn');
+	$('.home-section, .title, .subtitle, .heading, p, a, .btn, .card, .slide, form').addClass('fadeIn');
+
+	$('.slide p').removeClass("wow slow fadeIn");
 }
 
 var setup = function () {

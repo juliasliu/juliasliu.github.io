@@ -13,5 +13,5 @@ links:
   - title: iOS app store
     url: https://itunes.apple.com/us/app/verze/id1314271545?ls=1&mt=8
     style: ios
-featured: false
+featured: true
 ---

@@ -54,7 +54,8 @@ layout: default
 	    	<div class="title"><span class="highlight">Work Portfolio</span></div>
 
 		    <div class="works mt-4">
-					{% for work in site.works %}
+					{% assign sorted = site.works | sort: 'end' | reverse %}
+					{% for work in sorted %}
 		    	<a class="card image-card" href="{{ work.url }}">
 		    		<img src="{{ work.image | relative_url }}" alt="" />
 		    		<div class="image-card-text">

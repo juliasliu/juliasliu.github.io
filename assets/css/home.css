@@ -12,7 +12,7 @@
 }
 
 .home-section {
-	padding: 0 5rem;
+	padding: 0 25%;
 	display: flex;
 	text-align: center;
 }
@@ -24,7 +24,7 @@
 }
 
 .memoji {
-	max-height: 25vh;
+	max-height: 20vh;
 }
 
 /* WORK SLIDES */
@@ -47,4 +47,5 @@
 
 .posts .card {
 	width: 30%;
+	margin-bottom: 1rem;
 }

@@ -14,8 +14,8 @@ layout: default
 			    <div class="col-lg-6">
 			    	<h4>{{ page.caption }}</h4>
 			    	<p class="light">{{ page.start | date: "%b %Y" }} - {% if page.end == "present" %} present {% else %} {{ page.end | date: "%b %Y" }} {% endif %}</p>
-			    	<p>{{ page.description }}
-			    	</p>
+			    	<p>{{ page.description }}</p>
+						<p><em>{{ page.skills }}</em></p>
             {% for link in page.links %}
 							<a target="_blank" href="{{ link.url }}"
 							{% if link.style == "website" %} class="btn btn-dark mx-2 website"

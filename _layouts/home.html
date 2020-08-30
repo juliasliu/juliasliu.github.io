@@ -13,17 +13,18 @@ layout: default
 		<!-- Banner -->
 		<div class="banner-container">
 		    <section class="home-section">
-			    <div class="col-lg-8 mx-auto">
+			    <div class="col px-5">
 			    	<img class="heading memoji" src={{ "/assets/img/profiles/memoji_100.gif" | relative_url }} alt="julia memoji" />
-				   	<h1 class="heading">Hi, I am <span style="color: #00cc96;">Julia Liu</span>.</h1>
-			    	<h6 class="heading mb-4" style="line-height: 18pt;">
+				   	<h1 class="heading my-2">Hi, I am <span class="colored">Julia Liu</span>. 👋</h1>
+			    	<h6 class="heading my-4">
 			    		Junior undergrad <span class="highlight">@UC Berkeley</span> studying Computer Science & Business Administration.
-			    		Full-stack web and mobile app designer and developer, technical project manager, and aspiring investor.
-			    		Growth Equity Intern <span class="highlight">@Greycroft</span>.
-			    		Formerly STEP Intern <span class="highlight">@Google</span>.
-			    	</h6>
-					<a class="btn btn-dark" href="about">About me</a>
-					<a class="btn btn-dark mx-3" href="works">See my work</a>
+			    		Full-stack web and mobile app software engineer, technical project manager, and aspiring entrepreneur and investor.
+							<br>
+							Growth Equity Intern <a class="highlight" href="https://www.greycroft.com/">@Greycroft</a>.
+			    		STEP Intern <a class="highlight" href="https://buildyourfuture.withgoogle.com/programs/step/">@Google</a>.
+						</h6>
+					<a class="btn btn-dark mx-2" href="about">About me</a>
+					<a class="btn btn-dark mx-2" href="works">See my work</a>
 				</div>
 	    	</section>
 	    </div>
@@ -34,32 +35,32 @@ layout: default
 
 				<nav class="slide-navbar">
 					<ul>
-						{% for work in site.works %}
-							{% if work.featured %}
+						{% assign sorted = site.works | where: "featured", "true" | sort: 'end' | reverse %}
+						{% for work in sorted %}
 							<li id="item{{ forloop.index0 }}" onclick="changeSlide({{ forloop.index0 }})"
 								{% if forloop.first %} class="slide-navbar-item active" {% else %} class="slide-navbar-item" {% endif %}>
 								<strong>{{ work.name }}</strong><br>
 								<strong class="light">{{ work.caption }}</strong>
 							</li>
-							{% endif %}
 						{% endfor %}
 					</ul>
 				</nav>
 
-				{% for work in site.works %}
-					{% if work.featured %}
+				{% assign sorted = site.works | where: "featured", "true" | sort: 'end' | reverse %}
+				{% for work in sorted %}
 						<div id="slide{{ forloop.index0 }}"
 						{% if forloop.first %} class="slide work-slide active" {% else %} class="slide work-slide" {% endif %}>
 						    <div class="col-lg-6">
 						    	<h4>{{ work.name }}</h4>
 						    	<p class="light">{{ work.start | date: "%b %Y" }} - {% if work.end == "present" %} present {% else %} {{ work.end | date: "%b %Y" }} {% endif %}</p>
-						    	<p>{{ work.description }}
-						    	</p>
+						    	<p>{{ work.description }}</p>
+									<p><em>{{ work.skills }}</em></p>
 									{% for link in work.links %}
 								    <a target="_blank" href="{{ link.url }}"
 										{% if link.style == "website" %} class="btn btn-dark mx-2 website"
 										{% elsif link.style == "ios" %} class="btn btn-dark mx-2 ios"
 										{% elsif link.style == "android" %} class="btn btn-dark mx-2 android"
+										{% elsif link.style == "github" %} class="btn btn-dark mx-2 github"
 										{% else %}
 										{% endif %}>
 								    	<span>{{ link.title }}</span>
@@ -70,31 +71,32 @@ layout: default
 						    	<img src="{{ work.image | relative_url }}" alt="" />
 						    </div>
 						</div>
-					{% endif %}
 				{% endfor %}
     	</section>
     	<!-- End work -->
 
-		<!-- Blog -->
+			<!-- Blog -->
 	    <section class="content">
 
 	    	<div class="title"><span class="highlight">Recent Posts</span></div>
 	    	<div class="subtitle">
-					Your <del>daily</del> dose of my late-night caffeine thoughts sprinkled into your morning cup of tea.
+					Your <del>weekly</del> dose of my late-night caffeinated thoughts sprinkled into your morning cup of tea.
+					<br>
+					Contrary to popular belief, I may or may not know what I am talking about.
 				</div>
 
-			    <div class="posts">
-						{% for post in site.posts limit:3 %}
-								<a class="card image-card" href="{{ post.url }}">
-					    		<img src="{{ post.image | relative_url }}" alt="" />
-					    		<h6 class="image-card-title mt-3">{{ post.title}}</h6>
-					    		<p class="light">{{ post.date | date: "%b %-d, %Y" }}</p>
-					    	</a>
-						{% endfor %}
-			    </div>
-			    <a href="blog" class="highlight-link my-4">
-		    		Read more <i class="fa fa-angle-right"></i>
-			    </a>
+		    <div class="posts">
+					{% for post in site.posts limit:3 %}
+							<a class="card image-card" href="{{ post.url }}">
+				    		<img src="{{ post.image | relative_url }}" alt="" />
+				    		<h6 class="image-card-title mt-3">{{ post.title}}</h6>
+				    		<p class="light">{{ post.date | date: "%b %-d, %Y" }}</p>
+				    	</a>
+					{% endfor %}
+		    </div>
+		    <a href="blog" class="highlight-link my-4">
+	    		Read more <i class="fa fa-angle-right"></i>
+		    </a>
     	</section>
     	<!-- End blog -->
 

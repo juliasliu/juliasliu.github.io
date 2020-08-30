@@ -77,6 +77,10 @@ section {
 	display: none;
 }
 
+.colored {
+	color: #00cc96;
+}
+
 .highlight {
 	display: inline-block;
   position: relative;
@@ -94,6 +98,15 @@ section {
   bottom: 0;
   right: 0;
   background-color: rgba(65,157,120,0.14);
+	transition: 0.5s background-color;
+}
+
+a.highlight, a.highlight:hover {
+	color: #212529;
+}
+
+a.highlight:hover:before {
+	background-color: rgba(65,157,120,0.3);
 }
 
 .highlight-link {
@@ -140,12 +153,6 @@ section {
     transform: rotate(-90deg);
 }
 
-.mark {
-	color: #00966e;
-	background: none !important;
-	padding: 0 !important;
-}
-
 .content {
 	text-align: center;
 	padding: 4rem 0;
@@ -163,6 +170,7 @@ section {
 
 .heading {
 	margin-bottom: 1rem;
+	line-height: 18pt;
 }
 
 .content .row {
@@ -226,7 +234,7 @@ section {
 
 .text {
 	padding: 0;
-	margin: 2rem;
+	margin: 2rem 2rem 0 2rem;
 }
 
 .form-group {
@@ -245,6 +253,7 @@ section {
 	padding: 1rem 2rem;
 	cursor: pointer;
 	position: relative;
+	flex: 1 1 0px;
 }
 
 .slide-navbar ul li:nth-child(odd) {

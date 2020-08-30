@@ -40,12 +40,6 @@ plugins:
 collections:
   works:
     output: true
-    order:
-      - groot.md
-      - diversatech.md
-      - kwizu.md
-      - verze.md
-      - dreamemo.md
 
 # Defaults
 defaults:
