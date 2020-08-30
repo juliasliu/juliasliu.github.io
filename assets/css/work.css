@@ -35,6 +35,11 @@
 	content: '\f3ab';
 }
 
+.btn.github span:before {
+	font-family: "Font Awesome 5 Brands";
+	content: '\f09b';
+}
+
 /* .thumbnail-list {
   display: flex;
   flex-direction: row;

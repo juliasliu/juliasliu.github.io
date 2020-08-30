@@ -168,6 +168,10 @@ a.highlight:hover:before {
 	margin-bottom: 3rem;
 }
 
+.content .subtitle {
+	margin: 0rem 25% 3rem 25%;
+}
+
 .heading {
 	margin-bottom: 1rem;
 	line-height: 18pt;

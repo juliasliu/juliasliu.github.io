@@ -5,7 +5,7 @@ var addWow = function() {
 	$('#header, #footer').addClass('flipInX');
 	$('.home-section, .title, .subtitle, .heading, p, a, .btn, .card, .slide, form').addClass('fadeIn');
 
-	$('.slide p').removeClass("wow slow fadeIn");
+	$('.slide p, .slide .btn').removeClass("wow slow fadeIn");
 }
 
 var setup = function () {

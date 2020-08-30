@@ -53,7 +53,7 @@ layout: default
 						    <div class="col-lg-6">
 						    	<h4>{{ work.name }}</h4>
 						    	<p class="light">{{ work.start | date: "%b %Y" }} - {% if work.end == "present" %} present {% else %} {{ work.end | date: "%b %Y" }} {% endif %}</p>
-						    	<p>{{ work.description }}</p>
+						    	<p>{{ work.blurb }}</p>
 									<p><em>{{ work.skills }}</em></p>
 									{% for link in work.links %}
 								    <a target="_blank" href="{{ link.url }}"
@@ -82,7 +82,7 @@ layout: default
 	    	<div class="subtitle">
 					Your <del>weekly</del> dose of my late-night caffeinated thoughts sprinkled into your morning cup of tea.
 					<br>
-					Contrary to popular belief, I may or may not know what I am talking about.
+					Contrary to unpopular belief, I may or may not know what I am talking about.
 				</div>
 
 		    <div class="posts">
