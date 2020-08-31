@@ -11,10 +11,13 @@
 <meta name="twitter:site" content="https://juliasliu.com/" />
 {% if page.title %}
 <meta name="twitter:title" content="{{ page.title }}" />
+{% else %}
+<meta name="twitter:title" content="{{ site.title }}" />
+{% endif %}
+{% if page.excerpt %}
 <meta name="twitter:description" content="{{ page.excerpt | strip_html }}" />
 <meta name="twitter:image" content="{{ page.image | relative_url }}" />
 {% else %}
-<meta name="twitter:title" content="{{ site.title }}" />
 <meta name="twitter:description" content="{{ site.description }}" />
 <meta name="twitter:image" content="{{ site.image | relative_url }}" />
 {% endif %}
