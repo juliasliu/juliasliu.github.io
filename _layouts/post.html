@@ -8,9 +8,22 @@ layout: default
 	  	<section class="content">
 
 	    	<div class="title"><span class="highlight">{{ page.title }}</span></div>
-        <div class="subtitle">{{ page.date | date: "%b %-d, %Y" }}</div>
+        <div class="subtitle">
+					{{ page.date | date: "%b %-d, %Y" }} •
+					{% capture words %}
+					  {{ page.content | number_of_words }}
+					{% endcapture %}
+					{{ words | divided_by: 200 | append: " minute read" }}
+				</div>
 
-        <div class="post-container">{{ content }}</div>
+        <div class="post-container">
+					<div class="image-col my-4">
+							<img src="{{ page.image | relative_url }}" alt="" />
+					</div>
+					<div class="py-4">
+						{{ content }}
+					</div>
+				</div>
       </section>
   </div>
 </div>

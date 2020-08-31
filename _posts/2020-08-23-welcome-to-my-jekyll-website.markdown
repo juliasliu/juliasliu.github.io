@@ -1,30 +1,14 @@
 ---
 layout: post
-title:  Welcome to my Jekyll website!
+title:  Welcome to my Jekyll website and blog!
 date:   2020-08-30 14:39:31 -0700
-categories: jekyll update
-image: /assets/img/backgrounds/cafe-coffee-drink.jpg
+categories: jekyll blog website
+image: /assets/img/blog/cafe-coffee-drink.jpg
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Two weeks ago, I had put down a calendar reminder to redo my website, and alas, after 13 days of glorious procrastination, the deed has been done.
 
-Jekyll requires blog post files to be named according to the following format:
+My website was previously hosted on an Amazon Web Services EC2 server instance, which in hindsight was not only hard to maintain and update but was also like sticking a funnel into my wallet and draining it of $20+ every month. Needless to say, I needed to escape from the wrath of Jeff Bezos and his evil minions that are Amazon and its subsidiaries.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+I listened to the angel on my shoulder nudging me to host my website on Github Pages and use a static site generator called Jekyll instead, which would alleviate much of the pain I would otherwise go through for setting up my blog. This costed me literally 0 dollars, to my immense satisfaction, and it also provided me a free SSL certificate along with the deployment of my website to Github Pages, which I did not previously own.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+The home page of my website features an animated Apple Memoji of myself made by yours truly. I used my iPad to record my facial movements, as my ancient iPhone 8 was incapable of such advanced technology. Then, I exported the video to my computer, where I realized to my disappointment that it was not transparent. Thus, I went down a journey of converting the video to a GIF and then proceeding to flip through all 80 frames of the GIF file and deleting the non-transparent backgrounds. Voila!
