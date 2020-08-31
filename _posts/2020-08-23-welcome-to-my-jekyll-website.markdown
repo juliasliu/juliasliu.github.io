@@ -15,11 +15,11 @@ Now onto a tour of my website!!
 
 The home page of my website features an animated Apple Memoji made by yours truly. I used my iPad to record my facial movements, as my ancient iPhone 8 was incapable of such advanced technology. Then, I exported the video to my computer, where I realized to my disappointment that it was not transparent. Thus, I went down a journey of converting the video to a GIF and then proceeding to flip through all *80 frames of the GIF file* and deleting the non-transparent backgrounds. And voila––now you can see my floating head upon entering my website!
 
-One thing I struggled with for my old website was communicating myself and my experiences. This resulted in a messy amalgamation of the list of classes I took, my job and club descriptions, awards and honors I received, and the skills I had, all in one long scroll. I never really liked the style of regurgitation of my resume on my website, as it seemed unnecessary and pretentious.
+One thing I struggled with for my old website was communicating myself and my experiences. This resulted in a messy amalgamation of the list of classes I took, my job and club descriptions, awards and honors I received, and the skills I had, all in one long scroll. I never really liked the style of regurgitation of my resume on my website and wanted to change it.
 
 Thus, I got rid of the page entirely. R.I.P.
 
-Instead, I focused on dividing my attention between an About page and a Work page. The former I used to basically write my resume in paragraph form, with a personality teaser at the bottom. The latter served as a portfolio of my projects. I sincerely hope you enjoy reading the narcissistic display of all that I have to offer to the world wide webs.
+Instead, I focused on dividing my attention between an About page and a Work page. The former I used to basically write my resume in paragraph form. (Insert a painful amount of emojis here.) The latter served as a portfolio of my projects. I sincerely hope you enjoy reading the narcissistic display of all that I have to offer to the world wide webs.
 
 A crystal ball would probably tell me that my website will drastically change in the future. Who knows how many iterations *juliasliu.com* will undergo before its final form. Only time will tell.
 
