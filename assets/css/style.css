@@ -189,7 +189,7 @@ a.highlight:hover:before {
 
 .card img {
 	width: 100%;
-	object-size: cover;
+	object-fit: cover;
 }
 
 .image-card {

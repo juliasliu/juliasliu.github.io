@@ -11,3 +11,8 @@
 	width: 100%;
 	height: 100%;
 }
+
+.post-container ol {
+	list-style-type: decimal;
+	padding-inline-start: 40px;
+}
