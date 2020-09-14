@@ -189,6 +189,8 @@ a.highlight:hover:before {
 
 .card img {
 	width: 100%;
+	max-height: 250px;
+	min-height: 250px;
 	object-fit: cover;
 }
 
@@ -206,11 +208,11 @@ a.highlight:hover:before {
 	cursor: pointer;
 }
 
-.image-card:hover img {
+.image-card img:hover {
 	animation: card .5s forwards;
 }
 
-.image-card:hover .image-card-text {
+.image-card img:hover .image-card-text {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -226,12 +228,18 @@ a.highlight:hover:before {
 
 .image-card .image-card-title  {
 	color: #000 !important;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+  overflow: hidden;
 }
 
 @keyframes card {
 	to {
-		margin: 5% 5% 0% 5%;
+		padding: 10px;
+		margin: 0 auto;
 		width: 90%;
+		max-height: 230px;
+		min-height: 230px;
 		filter: sepia(10%) saturate(50%) brightness(70%) hue-rotate(90deg);
 	}
 }

@@ -12,6 +12,11 @@
 	height: 100%;
 }
 
+.post-container img {
+	max-height: 500px;
+	object-fit: cover;
+}
+
 .post-container ol {
 	list-style-type: decimal;
 	padding-inline-start: 40px;
