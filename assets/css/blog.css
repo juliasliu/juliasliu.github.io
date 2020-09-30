@@ -12,6 +12,10 @@
 	height: 100%;
 }
 
+.post-container {
+	padding: 0 25%;
+}
+
 .post-container img {
 	max-height: 500px;
 	object-fit: cover;

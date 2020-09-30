@@ -2,17 +2,17 @@
 
 .works {
 	display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0 5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 5rem;
 }
 
 .works .card {
 	position: relative;
-	max-width: 45%;
-	min-width: 45%;
-	min-height: 350px;
-	margin: 2.5%;
+	width: 45%;
+	min-width: 400px;
+	min-width: 350px;
+	margin: 2rem;
 }
 
 .btn span:before {

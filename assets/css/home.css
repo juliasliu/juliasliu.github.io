@@ -7,24 +7,26 @@
 /* BANNER SECTION */
 
 .banner-container {
-	padding-top: 10vh;
-	height: 80vh;
+	display: flex;
+	justify-content: center;
 }
 
 .home-section {
-	padding: 0 25%;
-	display: flex;
+	width: 60%;
 	text-align: center;
 }
 
-@media only screen and (max-width: 400px) {
+@media screen and (max-width: 635px) {
 	.home-section {
-		width: 80%;
+		width: 100%;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 }
 
 .memoji {
-	max-height: 20vh;
+	width: 50%;
+	max-width: 250px;
 }
 
 /* WORK SLIDES */
@@ -37,8 +39,9 @@
 
 .posts {
 	display: flex;
-	justify-content: space-between;
-    margin: 0 5rem;
+	flex-wrap: wrap;
+	justify-content: center;
+  margin: 0 5rem;
 }
 
 .blog-posts {
@@ -47,5 +50,6 @@
 
 .posts .card {
 	width: 30%;
-	margin: 1rem 0;
+	min-width: 250px;
+	margin: 1rem;
 }

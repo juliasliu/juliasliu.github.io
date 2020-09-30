@@ -82,6 +82,12 @@
 	}
 }
 
+@media screen and (max-width: 552px) {
+  .nav-items {
+		width: auto;
+	}
+}
+
 .navbar .navbar-nav .nav-item.toggle {
 	display: none;
 }

@@ -181,6 +181,10 @@ a.highlight:hover:before {
 	line-height: 18pt;
 }
 
+.heading-top {
+	line-height: 2.5rem;
+}
+
 .content .row {
 	justify-content: center;
 	margin: 0 5rem;
@@ -224,6 +228,7 @@ a.highlight:hover:before {
 	height: 100%;
 	padding: 10%;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -255,14 +260,17 @@ a.highlight:hover:before {
 
 .form-group {
 	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
 }
 
 /* SLIDES */
 
 .slide-navbar ul {
 	display: flex;
-    margin: 0 5rem;
-    text-align: center;
+	flex-wrap: wrap;
+  margin: 0 5rem;
+  text-align: center;
 }
 
 .slide-navbar ul li {
@@ -321,11 +329,16 @@ a.highlight:hover:before {
 
 .slide.active {
 	display: flex;
+	flex-wrap: wrap;
 	visibility: visible !important;
 }
 
-.post-container {
-	padding: 0 25%;
+.slide.work-slide {
+	flex-wrap: wrap-reverse;
+}
+
+.slide.work-slide .image-col {
+	padding: 15px;
 }
 
 /* BACKGROUND RECTANGLES */
