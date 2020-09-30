@@ -1,24 +1,45 @@
 <!-- Navigation -->
 <nav class="navbar navbar-toggleable-md bg-faded">
-  <div class="navbar-nav">
-  <ul class="nav center">
-      <li class="nav-item center">
-        <a class="nav-link highlight-link" href="/about">About</a>
-	  </li>
-      <li class="nav-item center">
-        <a class="nav-link highlight-link" href="/works">Work</a>
-	  </li>
-	  <li class="nav-item center">
-	      <a class="navbar-brand" href="/">
-		    <img src="/assets/img/logos/site_black.png" alt="JSL">
-		  </a>
-	  </li>
-      <li class="nav-item center">
-        <a class="nav-link highlight-link" href="/blog">Blog</a>
-      </li>
-      <li class="nav-item center">
-        <a class="nav-link highlight-link" href="/contact">Contact</a>
-      </li>
-  </ul>
+  <div class="container-fluid">
+    <div class="navbar-nav">
+      <ul class="nav center">
+        <div class="nav-items left">
+          <li class="nav-item center">
+            <a class="nav-link highlight-link" href="/about">About</a>
+      	  </li>
+          <li class="nav-item center">
+            <a class="nav-link highlight-link" href="/works">Work</a>
+      	  </li>
+        </div>
+    	  <li class="nav-item center logo">
+    	     <a class="navbar-brand" href="/">
+    		       <img src="/assets/img/logos/site_black.png" alt="JSL">
+    		  </a>
+    	  </li>
+        <div class="nav-items right">
+          <li class="nav-item center">
+            <a class="nav-link highlight-link" href="/blog">Blog</a>
+          </li>
+          <li class="nav-item center">
+            <a class="nav-link highlight-link" href="/contact">Contact</a>
+          </li>
+          <li class="nav-item center toggle">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-navbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </li>
+        </div>
+      </ul>
+    </div>
+    <div class="collapse navbar-collapse" id="collapse-navbar">
+      <ul class="nav navbar-nav">
+        <li><a class="nav-link highlight-link" href="/about">About</a></li>
+        <li><a class="nav-link highlight-link" href="/works">Work</a></li>
+        <li><a class="nav-link highlight-link" href="/blog">Blog</a></li>
+        <li><a class="nav-link highlight-link" href="/contact">Contact</a></li>
+      </ul>
+    </div>
   </div>
 </nav>

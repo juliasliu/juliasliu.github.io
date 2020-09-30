@@ -77,6 +77,10 @@ section {
 	display: none;
 }
 
+.active {
+	display: block;
+}
+
 .colored {
 	color: #00cc96;
 }
