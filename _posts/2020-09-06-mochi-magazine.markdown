@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Publishing my first article for Mochi Magazine
+title:  Publishing an article for Mochi Magazine
 date:   2020-09-06 12:39:31 -0700
 categories: jekyll blog
 image: /assets/img/blog/mochi-magazine.png

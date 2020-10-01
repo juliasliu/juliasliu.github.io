@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Welcome to my new website and blog!
+title:  My new website and blog
 date:   2020-08-30 14:39:31 -0700
 categories: jekyll blog website
 image: /assets/img/blog/welcome.JPG
