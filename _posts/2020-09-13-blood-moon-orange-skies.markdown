@@ -2,7 +2,7 @@
 layout: post
 title: Blood moon and orange skies
 date:   2020-09-13 20:39:31 -0700
-categories: jekyll blog
+categories: blog
 image: /assets/img/blog/blood_moon.JPG
 ---
 Four days ago, I woke up in a drowsy trance, unusually lethargic as I slowly got up from my bed. Normally, the clear blinding sun rays shine through my bedroom window, but today it was replaced by an ominous hazy orange glow.

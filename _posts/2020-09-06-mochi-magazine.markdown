@@ -2,7 +2,7 @@
 layout: post
 title:  Publishing an article for Mochi Magazine
 date:   2020-09-06 12:39:31 -0700
-categories: jekyll blog
+categories: blog
 image: /assets/img/blog/mochi-magazine.png
 ---
 This week has been a wild ride––it has been a little over a full week of school and I may or may not be staying up at 2 am once again, writing for my blog. As always, I cannot let my child that is my lonely thoughts feel abandoned.
