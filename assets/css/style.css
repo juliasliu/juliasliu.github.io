@@ -28,6 +28,10 @@ p, a, li {
 	font-weight: 500 !important;
 }
 
+li {
+  text-align: left;
+}
+
 a:not([href]) {
 	color: #fff !important;
 }
@@ -83,6 +87,11 @@ section {
 
 .colored {
 	color: #00cc96;
+}
+
+b, strong {
+	font-family: 'Source Sans Pro Regular', sans-serif !important;
+    font-weight: 300 !important;
 }
 
 .highlight {
@@ -196,9 +205,10 @@ a.highlight:hover:before {
 }
 
 .card img {
+	/* Aspect ratio 7:5, dimensions 350px x 250px */
 	width: 100%;
-	max-height: 250px;
 	min-height: 250px;
+	max-height: 250px;
 	object-fit: cover;
 }
 
@@ -247,8 +257,8 @@ a.highlight:hover:before {
 		padding: 10px;
 		margin: 0 auto;
 		width: 90%;
-		max-height: 230px;
-		min-height: 230px;
+		max-height: 250px;
+		min-height: 150px;
 		filter: sepia(10%) saturate(50%) brightness(70%) hue-rotate(90deg);
 	}
 }

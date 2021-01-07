@@ -17,11 +17,26 @@
 }
 
 .post-container img {
-	max-height: 500px;
 	object-fit: cover;
 }
 
 .post-container ol {
 	list-style-type: decimal;
 	padding-inline-start: 40px;
+}
+
+.post-container.posts {
+	margin: 0;
+}
+
+.post-container.posts .card {
+	max-width: 33.33%;
+	min-width: 150px;
+	padding: 1rem;
+}
+
+.post-container.posts .card img {
+	width: 100%;
+	min-height: 150px;
+    max-height: 200px;
 }

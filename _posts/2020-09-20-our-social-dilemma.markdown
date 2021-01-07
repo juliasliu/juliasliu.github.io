@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Our social dilemma
+title:  Our Social Dilemma
 date:   2020-09-20 12:39:31 -0700
 categories: blog
-image: /assets/img/blog/kimchi_tofu_soup.JPG
+image: /assets/img/blog/2020-09-20-kimchi-tofu-soup.JPG
 ---
 I visited a couple of friends in Berkeley this past weekend, which was a nice change from the stagnant and boring #WFH life that has drained me of motivation and happiness for the last four weeks. I ended up eating way too much day, first filling myself with some spicy chilaquiles at Scrambl'z on the Alameda, grabbing boba in Berkeley from Ucha, snaccing on some popcorn chicken while playing Overcooked, and finally emulating Overcooked in real life by chaotically stirring up some delicious dinner with my friends––kimchi beef tofu soup and scallion pancakes, accompanied by soju and lychee beer.
 
