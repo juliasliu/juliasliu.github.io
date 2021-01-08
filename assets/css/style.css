@@ -14,22 +14,19 @@ Tertiary: #F0F0F0
 
 html, body {
 	background-color: #fafafa !important;
-	font-family: 'Source Sans Pro', sans-serif !important;
-	font-weight: 500 !important;
-	font-size: 16px;
-	letter-spacing: 1px;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 300 !important;
+	font-size: 15px !important;
+	line-height: 1.6 !important;
+	letter-spacing: .5px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 600 !important;
-}
-
-p, a, li {
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 	font-weight: 500 !important;
 }
 
 li {
-  text-align: left;
+  	text-align: left;
 }
 
 a:not([href]) {
@@ -89,28 +86,23 @@ section {
 	color: #00cc96;
 }
 
-b, strong {
-	font-family: 'Source Sans Pro Regular', sans-serif !important;
-    font-weight: 300 !important;
-}
-
 .highlight {
 	display: inline-block;
-  position: relative;
-  margin: 0;
-  padding: 0;
+	position: relative;
+	margin: 0;
+	padding: 0;
 	background-color: transparent !important;
 }
 
 .highlight:before {
 	content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: rgba(65,157,120,0.14);
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(65,157,120,0.14);
 	transition: 0.5s background-color;
 }
 
@@ -130,7 +122,7 @@ a.highlight:hover:before {
 	color: #6c757d !important;
 	transition: color 0.5s;
 	display: inline-block;
-  position: relative;
+  	position: relative;
 	background-color: transparent !important;
 }
 
@@ -140,26 +132,26 @@ a.highlight:hover:before {
 
 .highlight-link:hover:before {
 	content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 0%;
-  height: 50%;
-  background-color: rgba(65,157,120,0.14);
-  animation: highlight .5s forwards;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 0%;
+	height: 50%;
+	background-color: rgba(65,157,120,0.14);
+	animation: highlight .5s forwards;
 }
 
 @keyframes highlight {
-  from {
-    width: 0%;
-  }
+	from {
+		width: 0%;
+	}
 
-  to {
-    width: 100%;
-  }
+	to {
+		width: 100%;
+	}
 }
 
 .rotate {
@@ -249,7 +241,7 @@ a.highlight:hover:before {
 	color: #000 !important;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-  overflow: hidden;
+  	overflow: hidden;
 }
 
 @keyframes card {
@@ -279,8 +271,8 @@ a.highlight:hover:before {
 .slide-navbar ul {
 	display: flex;
 	flex-wrap: wrap;
-  margin: 0 5rem;
-  text-align: center;
+	margin: 0 5rem;
+	text-align: center;
 }
 
 .slide-navbar ul li {
@@ -309,17 +301,17 @@ a.highlight:hover:before {
 
 .slide-navbar ul li:not(.active):hover:before {
 	content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 0%;
-  z-index: 0;
-  height: 100%;
-  background: rgba(65,157,120,.15);
-  animation: tabhover .5s forwards;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 0%;
+	z-index: 0;
+	height: 100%;
+	background: rgba(65,157,120,.15);
+	animation: tabhover .5s forwards;
 }
 
 @keyframes tabhover {

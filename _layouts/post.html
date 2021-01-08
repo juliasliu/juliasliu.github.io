@@ -28,7 +28,7 @@ layout: default
 				{% for post in site.posts limit:3 %}
 						<a class="card image-card" href="{{ post.url }}">
 						<img src="{{ post.image | relative_url }}" alt="" />
-						<h6 class="image-card-title mt-3">{{ post.title}}</h6>
+						<div class="image-card-title mt-3">{{ post.title}}</div>
 						<p class="light">{{ post.date | date: "%b %-d, %Y" }}</p>
 					</a>
 				{% endfor %}

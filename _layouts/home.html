@@ -39,8 +39,9 @@ layout: default
 						{% for work in sorted %}
 							<li id="item{{ forloop.index0 }}" onclick="changeSlide({{ forloop.index0 }})"
 								{% if forloop.first %} class="slide-navbar-item active" {% else %} class="slide-navbar-item" {% endif %}>
-								<strong>{{ work.name }}</strong><br>
-								<strong class="light">{{ work.caption }}</strong>
+								<strong class="light">{{ work.name }}</strong>
+								<br>
+								<p class="light mb-0">{{ work.caption }}</p>
 							</li>
 						{% endfor %}
 					</ul>
@@ -87,7 +88,7 @@ layout: default
 					{% for post in site.posts limit:3 %}
 							<a class="card image-card" href="{{ post.url }}">
 				    		<img src="{{ post.image | relative_url }}" alt="" />
-				    		<h6 class="image-card-title mt-3">{{ post.title}}</h6>
+				    		<div class="image-card-title mt-3">{{ post.title}}</div>
 				    		<p class="light">{{ post.date | date: "%b %-d, %Y" }}</p>
 				    	</a>
 					{% endfor %}
