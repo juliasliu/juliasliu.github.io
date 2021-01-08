@@ -3,7 +3,7 @@ layout: post
 title:  It's Okay
 date:   2020-10-11 12:39:31 -0700
 categories: blog
-image: /assets/img/blog/2020-10-11-berkeley-social-club.JPG
+image: /assets/img/blog/2020-10-11-berkeley-social-club.jpg
 ---
 My friend brought her grill from home so that we could make our own KBBQ at my other friend's place in Berkeley. The night started with us shopping at a Korean store in Oakland for some thicc meat and ended with us cooking it on the grill, drinking dark & stormy cocktails, and playing some tipsy Catan. Somewhere in between that we also set off the fire alarm in my friend's apartment, which blared annoyingly along with a female voice that calmly and monotonously repeated "Fire" to alert us that there was, indeed, (no) fire. Lessons learned: rip out the fire alarm before you start your indoor KBBQ grill, and don't sit right underneath one.
 

@@ -3,7 +3,7 @@ layout: post
 title:  Hello World
 date:   2020-08-30 14:39:31 -0700
 categories: blog
-image: /assets/img/blog/2020-08-30-welcome.JPG
+image: /assets/img/blog/2020-08-30-welcome.jpg
 ---
 Two weeks ago, I had put down a calendar reminder to redo my website, and alas, after 13 days of glorious procrastination, the deed has been done.
 
