@@ -16,6 +16,12 @@
 	padding: 0 25%;
 }
 
+@media screen and (max-width: 685px) {
+	.post-container {
+		padding: 0 10%;
+	}
+}
+
 .post-container img {
 	object-fit: cover;
 }

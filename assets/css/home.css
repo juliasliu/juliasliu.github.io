@@ -16,7 +16,7 @@
 	text-align: center;
 }
 
-@media screen and (max-width: 635px) {
+@media screen and (max-width: 685px) {
 	.home-section {
 		width: 100%;
 		padding-left: 50px;
