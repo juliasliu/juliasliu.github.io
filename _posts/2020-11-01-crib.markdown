@@ -1,0 +1,22 @@
+---
+layout: post
+title:  Crib
+date:   2020-11-01 12:39:31 -0700
+categories: blog
+image: /assets/img/blog/2020-11-01-lazy-egg-dish.jpg
+---
+Here's a blurry photo of a lazy egg dish that I made recently. Admittedly, it's not as handsome as gudetama, but I was desperate to prevent my spinach, potatoes, and tomatoes from rotting away before my stomach juices can devour them. I probably committed a hundred cooking sins just by making this dish, but it suffices for quickly cleaning out my fridge.
+
+Since the pandemic, the number of grocery trips that I make has been cut down significantly, so reaching a good balance of ingredients, as well as coordinating them with my housemates, has become a challenge. I am also a big fan of easy-to-make recipes, as I am usually too busy to spend a lot of time cooking meals, hence my slight obsession with fruit smoothies and morning scrambled eggs. Back at Berkeley, I spent so little time in my apartment during some weeks that I forgot which items in the fridge belonged to me. There were definitely late nights when I came home and cooked a very unnecessary meal in an attempt to finish my food before it spoiled.
+
+Many college students face similar situations of losing track of the expiration dates of their food or having to make frantic trips to Trader Joe's in order to stock up on produce and ingredients. On top of that, living with other people naturally elicits moments of friction and conflict. Splitting monthly bills and receipt costs are a burden––the back-and-forth manual Venmo and Paypal transactions become a pain in the a$$. Delegating and rotating chores and, more importantly, enforcing them, are a necessary evil that every roommate has to deal with. I, for one, am terrible at completing my share of chores and need a gentle nudging reminder every now and then to do them.
+
+Evidently, all of this seems to be a part of a bigger problem that ubiquitously exists in the typical "college dorm life:" there is no centralized platform for roommates to organize their inventory and transactions. Whether it be keeping track of the items in your communal fridge, saving time and gas by strategically planning grocery trips, untangling the IOU relationships among each other, or effectively incentivizing the completion of chores without breaking the bonds of friendship, there is a need for an app that can resolve these different pain points in every household. 
+
+It isn't just limited to the college dorm life. Any housing environment with two or more people living under a roof breeds situations that can lead to messy fridges, messy houses, and messy relationships. A centralized and organized platform can clean up that mess with minimal effort from the user. Families, for example, can use this app to motivate children to wash dishes in exchange for an allowance, and easily manage the allowances in-app as well.
+
+This app idea was the brainchild behind a project called *Crib* that a few friends and I worked on this past October as part of CalHack's Hack Month event. Two days ago, we presented our work at the Hack Month showcase, where we walked through specific features of the app to demonstrate how our platform aimed to solve the various aforementioned problems. Due to midterm season stealing away a huge chunk of our time, we weren't able to fully build out the UI of the app and only implemented a basic register functionality on the backend side. However, I hope to continue working on this app in the future and bring the platform to life so that it can be used in households everywhere.
+
+We created a Notion page [here](https://www.notion.so/Crib-the-Grocery-and-Household-App-3263173827874afca394dadfc9e71f1e) that details our app features and includes screenshots of the frontend designs that we coded so far. Our most notable feature that serves as the main cogwheel in our platform is a virtual pet dog who sits in the home page of our app. It feeds on the completion of tasks by members in the household, from doing chores and restocking the fridge to fulfilling charge requests. Failure to complete those tasks results in a sad puppy that no one wants. As one of the biggest pain points that many chore management apps attempt to solve is task incentivization, we wanted to tackle it using the classic system of gamification through a universally loved domestic animal. 
+
+I hope that cuts the mustard for a brief introduction to our *"Crib"*. Until next time!
