@@ -1,8 +1,3 @@
-.blog .content {
-	width: 100%;
-	text-align: center;
-}
-
 .blog .youtube-video {
 	box-shadow: 0 3px 10px rgba(0,0,0,.25);
 }
@@ -14,6 +9,11 @@
 
 .post-container {
 	padding: 0 25%;
+	text-align: left;
+}
+
+.post-container.posts {
+	text-align: center;
 }
 
 @media screen and (max-width: 685px) {

@@ -51,6 +51,10 @@ ul, ol {
 	padding: 0;
 }
 
+.task-list-item-checkbox {
+	margin-right: 5px;
+}
+
 section {
 	position: relative;
     z-index: 100;
