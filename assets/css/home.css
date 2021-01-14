@@ -59,3 +59,11 @@
 	max-width: 350px;
 	padding: 1rem;
 }
+
+.posts .card:first-child {
+	padding-left: 0;
+}
+
+.posts .card:last-child {
+	padding-right: 0;
+}

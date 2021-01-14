@@ -19,6 +19,9 @@ Apparently, brunch was so tremendously filling that my really good friend dozed 
 - [x] **Walgreens**  
 Encouraged by my enabling, we stopped by Walgreens and impulse-bought Taki popcorn and a bag of Kit Kats. The Taki popcorn was love at first sight, and it may have beaten out Jalapeño Cheeto Puffs to become my favorite. It is my religious belief that popcorn is an extremely underrated and versatile snacc. You can coat it in butter, caramel, chocolate, cheddar, pumpkin spice––the possibilities are endless. Addicted to the spicy and sour flavor of the Taki powdered popcorn, I ravenously devoured the entire bag in the span of two days.
 
+- [x] **Marufuku Ramen**  
+Saturday night, we drove to Oakland where we waited 20 minutes in the car to be seated in Marufuku's outdoor dining area. We ordered the Hakata Tonkotsu and Chicken Paitan Deluxe, both pictured above. The tender pork meat of the Hakata Tonkotsu submerged in the warm broth, which was topped with a hard-boiled egg and a generous amount of green onions, radish, wood ear, and bean sprouts, was *delish*ious. Our soups must have been laced with the food coma potion again, as a deep slumber overcame us when we arrived back at the apartment.
+
 - [x] **Poke Parlor**
 - [x] **Kansai Sushi**  
 I didn't realize my love for raw seafood until I got to college (sorry, mom). My mom is highly skeptical of the unhygienic nature of uncooked seafood, which I totally understand from the horror stories she reads about people becoming vegetables after eating poorly prepared and contaminated fish in Japan. Nonetheless, poke would become my comfort food during my late-night study sessions at the Moffitt Library on campus. Spurred by my poke cravings this weekend, we ordered from Poke Parlor on Telegraph, and a few days later, from Kansai Sushi, further upping my raw fish intake. 
@@ -26,9 +29,6 @@ I didn't realize my love for raw seafood until I got to college (sorry, mom). My
 - [x] **Feng Cha**
 - [x] **Hui Lau Shan (許留山)**  
 A few weeks ago, I volunteered to teach a lecture on CSS animations for the web design decal course, in exchange for a free boba drink from one of the instructors. Naturally, I took advantage of this opportunity to acquire a large Dirty Boba, for maximum caramel indulgence, from Feng Cha, which I shared with my really good friend. A few days later, I was also craving boba from Ucha, which unfortunately did not open by the moment I got there, so I ordered a mango pomelo drink from its neighbor, Hui Lau Shan, instead.
-
-- [x] **Marufuku Ramen**  
-Sunday night, we drove to Oakland where we waited 20 minutes in the car to be seated in Marufuku's outdoor dining area. We ordered the Hakata Tonkotsu and Chicken Paitan Deluxe, both pictured above. The tender pork meat of the Hakata Tonkotsu submerged in the warm broth, which was topped with a hard-boiled egg and a generous amount of green onions, radish, wood ear, and bean sprouts, was *delish*ious. Our soups must have been laced with the food coma potion again, as a deep slumber overcame us when we arrived back at the apartment.
 
 - [x] **Yin Ji Chang Fen (银记肠粉)**  
 I met up with another friend in Berkeley for lunch one day, where we from this dim sum place located in Northside Berkeley. It was lightly drizzling that day as I awkwardly clobbered my way downtown holding onto my umbrella and plastic bags full of food. We ordered a massive selection of foods, from an assorted congee, marinated shrimp and pork rice noodle rolls, chicken feet with herbs, and dough stick rice noodle roll to fried buns, ginger milk curd, and Hong Kong style milk tea.
