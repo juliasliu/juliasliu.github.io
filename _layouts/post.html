@@ -24,7 +24,7 @@ layout: default
 				</div>
 			</div>
 
-			<div class="post-container posts">
+			<div class="post-container posts posts-banner-list">
 				{% for post in site.posts limit:3 %}
 						<a class="card image-card" href="{{ post.url }}">
 						<img src="{{ post.image | relative_url }}" alt="" />

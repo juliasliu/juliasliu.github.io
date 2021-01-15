@@ -8,11 +8,20 @@
 }
 
 .works .card {
+	/* Aspect ratio 2:1, dimensions 500px x 250px */
 	position: relative;
-	width: 45%;
-	min-width: 400px;
-	min-width: 350px;
-	margin: 2rem;
+	width: 50%;
+	max-width: 500px;
+	padding: 2rem;
+}
+
+.works .card img {
+	/* Aspect ratio 2:1, dimensions 500px x 250px */
+	width: 100%;
+  min-width: 200px;
+  min-height: 100px;
+	max-height: 250px;
+	object-fit: cover;
 }
 
 .btn span:before {

@@ -39,6 +39,12 @@
 
 .image-col img {
 	width: 100%;
+	margin: 1rem 0;
+}
+
+.image-col em {
+	display: block;
+	text-align: center;
 }
 
 /* BLOG POSTS */
@@ -55,15 +61,23 @@
 }
 
 .posts .card {
-	min-width: 250px;
+	/* Aspect ratio 7:5, dimensions 350px x 250px */
 	max-width: 350px;
 	padding: 1rem;
 }
 
-.posts .card:first-child {
+.posts .card img {
+	/* Aspect ratio 7:5, dimensions 350px x 250px */
+	width: 100%;
+	min-width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.posts-banner-list .card:first-child {
 	padding-left: 0;
 }
 
-.posts .card:last-child {
+.posts-banner-list .card:last-child {
 	padding-right: 0;
 }

@@ -200,14 +200,6 @@ a.highlight:hover:before {
 	border-radius: 0 !important;
 }
 
-.card img {
-	/* Aspect ratio 7:5, dimensions 350px x 250px */
-	width: 100%;
-	min-height: 250px;
-	max-height: 250px;
-	object-fit: cover;
-}
-
 .image-card {
     background: none !important;
     display: block;
@@ -222,11 +214,11 @@ a.highlight:hover:before {
 	cursor: pointer;
 }
 
-.image-card img:hover {
+.image-card:hover img {
 	animation: card .5s forwards;
 }
 
-.image-card img:hover .image-card-text {
+.image-card:hover .image-card-text {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -250,11 +242,8 @@ a.highlight:hover:before {
 
 @keyframes card {
 	to {
-		padding: 10px;
-		margin: 0 auto;
-		width: 90%;
-		max-height: 250px;
-		min-height: 150px;
+		margin: auto;
+		transform: scale(0.9, 0.9);
 		filter: sepia(10%) saturate(50%) brightness(70%) hue-rotate(90deg);
 	}
 }

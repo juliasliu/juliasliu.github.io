@@ -36,12 +36,13 @@
 }
 
 .post-container.posts .card {
+	/* Aspect ratio 7:5, dimensions 140px x 100px */
 	max-width: 33.33%;
-	min-width: 150px;
 }
 
 .post-container.posts .card img {
-	width: 100%;
-	min-height: 150px;
-    max-height: 200px;
+	/* Aspect ratio 7:5, dimensions 140px x 100px */
+	min-width: 140px;
+	max-height: 140px;
+	min-height: 100px;
 }
