@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  Publishing an Article for Mochi Magazine
+title:  Spam or Ham
 date:   2020-09-06 12:39:31 -0700
 categories: blog
-image: /assets/img/blog/2020-09-06-mochi-magazine.png
+image: /assets/img/blog/2020-09-06-spam-musubi.jpg
+caption: Seaweed hugging the furikake-sprinkled packed rice and juicy spam strips
 ---
 This week has been a wild ride––it has been a little over a full week of school and I may or may not be staying up at 2 am once again, writing for my blog. As always, I cannot let my child that is my lonely thoughts feel abandoned.
 
-I am excited to announce that, after almost a year of being a Campus Ambassador for Mochi Magazine, I published an article! I wrote about Asian American representation in college dance teams, specifically analyzing the social and cultural nuances of its popularity, historical relevance, and its relationship with popular media.
+I am excited to announce that, after almost a year of being a Campus Ambassador for Mochi Magazine, I published an article! I wrote about Asian American representation in college dance teams, specifically analyzing the social and cultural nuances of its popularity, historical relevance, and its relationship with popular media. I am shamelessly using the spam musubi photo above, which my housemates and I made for lunch one day and ate deliciously with leftover rice and kimchi, to pay homage to my Asian American roots.
 
 To give some brief context as to how I stumbled here:
 

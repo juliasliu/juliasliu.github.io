@@ -4,6 +4,7 @@ title:  Wine and Cheese
 date:   2020-12-27 12:39:31 -0700
 categories: blog
 image: /assets/img/blog/2020-12-27-charcuterie.jpg
+caption: Cheese charcuterie board with salami, with almonds, hummus, carrot chips, cider, and orange juice
 ---
 As the new year approaches, today marks one of the last few days of 2020. The sluggish warmth and comfort from Christmas and the holiday season is slowly fading away, replaced by the jittery excitement and anticipation for the new year. Yesterday, my housemates and I met up for a belated cheese charcuterie and board game night, along with our annual secret santa exchange. We couldn't quite have a wine and cheese night, but we bought some sparkling cranberry apple cider instead to celebrate. We played a heated game of Catan, where I emerged as the underdog winner––I choked early-game when I stifled my horizontal expansion by constantly building roads that got blocked, but was able to pull the largest army card and upgraded my four settlements vertically into cities, ultimately winning the ten points of victory. With my stomach full of crackers, salami, and orange juice, I felt triumphant and satiated.
 

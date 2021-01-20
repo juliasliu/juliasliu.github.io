@@ -4,6 +4,7 @@ title:  Winter is Coming
 date:   2020-12-06 12:39:31 -0700
 categories: blog
 image: /assets/img/blog/2020-12-06-hiking.jpg
+caption: Back at it again with the hiking at Rancho San Antonio
 ---
 Game of Thrones is that one show that everyone used to watch, which peer pressured me into hopping onto the bandwagon as well so I could understand references people made to the show, except my smooth pea-sized brain has forgotten about 80% of the plot since I last stopped in season 5 three years ago. All I remember is that I hated Joffrey’s guts and his mother bore a weird resemblance to Bridgit Mendler that I could never stop thinking about.
 

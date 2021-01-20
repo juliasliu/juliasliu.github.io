@@ -4,10 +4,15 @@ title:  It's Okay
 date:   2020-10-11 12:39:31 -0700
 categories: blog
 image: /assets/img/blog/2020-10-11-berkeley-social-club.jpg
+caption: Mascarpone Blueberry Crunch French Toast with a side of bacon and eggs
 ---
 My friend brought her grill from home so that we could make our own KBBQ at my other friend's place in Berkeley. The night started with us shopping at a Korean store in Oakland for some thicc meat and ended with us cooking it on the grill, drinking dark & stormy cocktails, and playing some tipsy Catan. Somewhere in between that we also set off the fire alarm in my friend's apartment, which blared annoyingly along with a female voice that calmly and monotonously repeated "Fire" to alert us that there was, indeed, (no) fire. Lessons learned: rip out the fire alarm before you start your indoor KBBQ grill, and don't sit right underneath one.
 
+{% include image.html url="/assets/img/blog/2020-10-11-kbbq.jpg" alt="KBBQ" caption="The calm before the smoke alarm" %}
+
 The next morning, we walked to a nearby outdoor brunch dining place called Berkeley Social Club, where I ordered the Mascarpone Blueberry Crunch French Toast with bacon and eggs on the side (pictured above), and tried some of the Salmon Benedict that my friends ordered, both of which were very flavorful and mouth-wateringly delicious and no, I am not salivating. Settling into my brunch food coma, I met up with another friend, whom I haven't seen in over six months, and bonded over some *tea* while drinking actual tea from Asha Tea House. Thinking about Asha makes me feel nostalgic––I loved ordering boba and mochi donuts or muffins there and struggling to find a seat to study, because all of them would be taken within the first ten minutes of opening and there were a total of two outlets in that entire building, which made for a friendly competition among student customers. I vividly remember it was also where my strange obsession with "Lights Up" by Harry Styles began, but that is beside the point.
+
+{% include image.html url="/assets/img/blog/2020-10-11-salmon-benedict.jpg" alt="Salmon Benedict" caption="I stole a few bites from my friend's plate" %}
 
 That same day, I had a hotpot feast at my other friend's apartment. My stomach probably hated me for the things I put it through this past weekend, but regardless I treated myself to some warm miso soup accompanied by wine and soju. Honestly, I can't remember what I ate besides enoki mushrooms and cabbage, but it was still a very memorable night and dinner. We later played some PUBG Mobile around the dining table––which sounds, and was, very chaotic––and also attempted some multiplayer horror games that we barely made past the tutorials for. We gave up on them because the controls were too finicky and we couldn't figure out how to join the same server. Finally, my really good friend and I tried to watch an episode of *It's Okay to Not Be Okay*, before falling into an inevitable drunk food coma together.
 

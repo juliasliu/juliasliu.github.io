@@ -3,7 +3,8 @@ layout: post
 title:  Hiking Up Memory Lane
 date:   2020-09-27 12:39:31 -0700
 categories: blog
-image: /assets/img/blog/2020-09-27-memory-lane.jpg
+image: /assets/img/blog/2020-09-27-hiking-trail.jpg
+caption: A windy hiking trail in the foresty mountains of Rancho San Antonio
 ---
 Midterm season is crashing down on me, and squeezing in a healthy night's worth of sleep during these next two days appears to be a pipe dream. There is probably a psychological reason behind developing a strong aversion to doing work the more work that I have to do, because it is during these busiest days that I lose myself to the distraction that is the meaning of life. I start to wonder whether all the stress and busy work is worth the reward at the end, and whether it is ultimately worth the sacrifice of self-care and joy. I was given the perfect opportunity to indulge in some self-contemplation yesterday, when I went hiking with my family to the one and only place we always go hiking, and produce some brain juice that may be comprehended as thoughts. Again, I maybe shouldn't have spent three hours going hiking when I have two midterms coming up tomorrow,,,
 

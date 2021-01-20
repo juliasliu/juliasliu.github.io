@@ -4,14 +4,19 @@ title:  Mount Tam, See You Never Again
 date:   2020-10-18 12:39:31 -0700
 categories: blog
 image: /assets/img/blog/2020-10-18-mount-tam.jpg
+caption: The view from the treacherous Mount Tam, peering down at the beach below
 ---
 Words can not describe the *physical pain* and *emotional anguish* that I went through on the day that this picture was taken. To provide some much-needed context, I shall backtrack several days to paint a bigger picture of the timeline of events that led up to this point.
 
 Last Wednesday, my housemates and I spontaneously ditched our ✨responsibilities✨ and drove to Half Moon Bay for a whimsical picnic on the beach and watched the sunset. We spied on our neighbors on the shore who had a romantic proposal with candles and rose petals in the shape of a heart in the sand. We were totally unsuspicious and my roommate definitely did not take pictures of them at all. After the sunset, when it started getting cold, we decided to get back into our car and drive to Shake Shack for a quick dinner, and later grabbed dessert from Salt & Straw. Feeling inspired by our spontaneous trip, we decided to mark the upcoming Sunday for another even more daring adventure: waking up at 5 am and driving to San Francisco to catch the sunrise.
 
+{% include image.html url="/assets/img/blog/2020-10-18-half-moon-bay.jpg" alt="Half Moon Bay" caption="It was too cold so I sat on the picnic blanket and admired the waves from afar." %}
+
 I didn't get any shut eye last night, as I was 2x-speed-watching as many lectures as I could for my finance midterm in a few days. I was personally attacked when I heard the professor casually mention that CS students struggle the most in his class because they don't attend lectures and rely on last-minute cram sessions before the exam that are very ineffective for the nature of this course. Listening to those words as I was painfully aware that I am a literal embodiment of his warning did not bode well for my studying anxiety, but perhaps that was the exact intention of the professor when he uttered those words.
 
 And so my day started off with great promise––sleep-deprived and ravenous, I departed with my housemates around 5 am to drive up north to Marin Headlands. I dozed off in the car and was woken up by the sharp coldness of the air around me when I stepped outside of it. We reached a nice viewpoint that exposed the Golden Gate Bridge and the surrounding vast water of the bay, and waited patiently for the sun to show itself. The blinding yellow light emanating from the sun slowly appeared against the backdrop of orange-purple streaks across the horizon. I was so determined to capture that very moment that I stood for what felt like half an hour with trembling hands clutching my iPhone 8, the camera on time lapse mode and pointed through a gap of the metal wire fence right at the sun. The video turned out to be successful in catching the sunrise, albeit for the intense spazzing of the camera angles that turned what would have been a beautiful scenic clip into a laughable piece of comedy.
+
+{% include image.html url="/assets/img/blog/2020-10-18-golden-gate-dawn.jpg" alt="Golden Gate Bridge at Dawn" caption="The water and lights always look prettier in person. 😖" %}
 
 Getting back in the car, we snacced on some pita chips and hummus before arriving at our next stop, Mount Tam. And here, ladies and gents, is where everything went down. 
 

@@ -4,10 +4,13 @@ title: Blood Moon and Orange Skies
 date:   2020-09-13 20:39:31 -0700
 categories: blog
 image: /assets/img/blog/2020-09-13-blood-moon.jpg
+caption: If you look at the middle entity long enough, you might go to outer space
 ---
 Four days ago, I woke up in a drowsy trance, unusually lethargic as I slowly got up from my bed. Normally, the clear blinding sun rays shine through my bedroom window, but today it was replaced by an ominous hazy orange glow.
 
 Perhaps I should have remembered the scarlet red blood moon several nights before. It was like a fearful omen hovering above all of our heads, taunting us––the oblivious citizens who innocently took a night stroll through the neighborhood for some exercise and fresh air. (Photo taken represents our blissful ignorance. I am pictured left.) The red moon knew all too well that in a few days time it would paint the sky an ashy orange, forcing us to lock ourselves up in our homes and deprive us of the happy sunlight we needed to get through our long days.
+
+{% include image.html url="/assets/img/blog/2020-09-13-hotpot.jpg" alt="Hotpot" caption="We ate hotpot and a strawberry cake for my housemate's birthday" %}
 
 Since freshman year, the state of California has been, quite literally, on fire. My first fall semester the smoke drifted from the wildfires into the Bay and seeped into our lungs. The memes of AQI over 200 spread as intensely across my Facebook feed as the wildfires themselves. The next semester was strangely normal, but this was just the earth taking in a large gulp of air, waiting to unleash its breath of destruction.
 

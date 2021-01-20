@@ -4,6 +4,7 @@ title:  Election Day, Midterms, and Birthdays
 date:   2020-11-08 12:39:31 -0700
 categories: blog
 image: /assets/img/blog/2020-11-08-condy-birthday.jpg
+caption: Gelato Honey Brick Toast with a side of mochi donuts and Bellini wine
 ---
 This country has never been in such a state of political frenzy as it did this past week. Every person sat on the edge of their seats with their eyes glued to the news on TV, eagerly awaiting the next updated vote count in the presidential election. Shades of red and blue monopolized the screens of all of our devices, as we nervously kept tally of the number of states that were colored by each.
 

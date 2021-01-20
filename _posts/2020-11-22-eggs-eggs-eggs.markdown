@@ -4,10 +4,13 @@ title:  Eggs, Eggs, Eggs
 date:   2020-11-22 12:39:31 -0700
 categories: blog
 image: /assets/img/blog/2020-11-22-sanborn-brunch.jpg
+caption: I miss eggs benedict a lot. In fact, eggscrutiatingly.
 ---
 The past week whizzed by in a blur. Every day began and ended with a [food coma](/blog/2020/11/15/food-comas-parking-tickets.html), filled with spontaneous drives, Zoom calls, and naps in between. As if I didn't get enough of all of that last week, I shamelessly continued that *egg*citing and indulgent lifestyle this weekend as well.
 
 My Saturday morning began bright and early, as my housemates and I paid a trip to 99 Ranch Market to buy some baking ingredients. Our plan was to bake our own mochi muffins, which required rice flour, butter, brown sugar, and vanilla extract, among other necessities. The recipe was relatively simple, as it involved first mixing the dry and wet ingredients separately, then together, and finally clumsily pouring the viscous combination into the muffin pan, making sure that there was noticeable spillover around the edges. It took about 45 minutes to fully bake the muffins to reach a dark and golden brown color, verified by a clean poke in the center with a chopstick. The muffins turned out very *egg*cellent in my opinion, as the crispy exterior decorated by sesame seeds deliciously contrasted the soft and chewy interior, though it took a knife and a few stabbings to *eggs*tract them from the overly sticky pan.
+
+{% include image.html url="/assets/img/blog/2020-11-22-mochi-muffins.jpg" alt="Mochi Muffins" caption="Our beautiful batch of mochi muffins after two hours of struggle" %}
 
 The rest of my late breakfast that day included slurps of a fruit smoothie I made and bites of some radish cakes, or 萝卜糕, which my mom cooked a few days ago and which I simply threw into a pan to fry. My parents would always order radish cakes, sesame balls, and dough sticks from a local Chinese supermarket, and it never failed to stuff our stomachs with delectable goodness. It's safe to say that the mochi muffins, radish cakes, and smoothies were enough to inject, yet another, food coma into our veins, as we fell into a deep afternoon slumber. We awoke to dinner, which was bento box takeout from O2. I find it funny how they always pack the boxes so that the *eggs*plosive chicken or pork would protrude from under the lid, subsequently rendering the rubber bands almost useless in making sure the bento box was capped properly.
 

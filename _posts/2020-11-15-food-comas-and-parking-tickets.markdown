@@ -4,14 +4,19 @@ title:  Food Comas and Parking Tickets
 date:   2020-11-15 12:39:31 -0700
 categories: blog
 image: /assets/img/blog/2020-11-15-marufuku.jpg
+caption: A poorly angled bird's eye view of our Marufuku ramen dishes
 ---
 Not only did I empty out my wallet in the name of food this week, but I also racked up $150 worth of parking tickets. What was originally a weekend rendezvous transformed into a week-long extravaganza. Vacant parking spots are already hard to come by on the crowded one-way streets of Berkeley, and being fined $50 for overstaying a 2-hour parking limit feels even more personally cruel, though the limits were designed for that very reason. (Un)fortunately for me, I was fined not once, not twice, but *three* times.
 
 - [x] **In N Out**  
 On Friday, I hijacked my parents' car (half-kidding) to use for the rainy drive up to Berkeley. Upon arrival, my friend and I bought a fat gallon jug of Arizona Tea and orange juice from Walgreens, before reuniting with our other floormates. For dinner, we ate double-double cheeseburgers and animal fries, as part of a massive order from In N Out. The cheeseburgers served as a pregame for my stomach, which was filled with more than just tea and orange juice by the end of the night.
 
+{% include image.html url="/assets/img/blog/2020-11-15-in-n-out.jpg" alt="In N Out" caption="Sooooo much fud" %}
+
 - [x] **La Note**  
 The next day, I struggled to escape the trap of my blankets to get to brunch, which is perfect for late-risers and egg-lovers--my only two personalities. After failed attempts to eat at La Note, a popular brunch place in downtown Berkeley, I was determined to demolish those scrumptious eggs and pancakes. Dragging my really good friend along with me, we ordered the Lemon Gingerbread Pancakes with Poached Pears and a Cote Nord, which quickly placed us under the spell of a food coma. The pancakes had less of a lemon tinge than I had expected, but I still enjoyed its fluffiness and sugar-packed pears. The Cote Nord, of course, with its finger-licking scrambled eggs and shockingly well-seasoned tomatoes, was *delish*ious.
+
+{% include image.html url="/assets/img/blog/2020-11-15-la-note.jpg" alt="La Note" caption="Lemon Gingerbread Pancakes 🍋 🥞 with Poached Pears 🍐 and a Cote Nord 🍳" %}
 
 - [x] **Third Culture**  
 Apparently, brunch was so tremendously filling that my really good friend dozed off for fifteen minutes in the car, as I drove to Third Culture Bakery. Though I have had many a mochi pastries from the store before, I wanted to visit the bakery in-person. We ordered a selection of variously flavored mochi donuts and muffins, along with a caramel matcha coffee drink for myself, as I was aching for a shot of caffeine to wake me up. Promptly afterward, we decided to sprawl ourselves out under the blinding sunlight on the Memorial Glade, munching on our Third Culture goods as we offered our bodies to the food coma gods.

@@ -4,6 +4,7 @@ title:  Shore, Beach
 date:   2020-10-25 12:39:31 -0700
 categories: blog
 image: /assets/img/blog/2020-10-25-mitchells-cove.jpg
+caption: I lost one of my flip flops to the crashing waves against these rocks
 ---
 Sometimes, things happen when you least expect them.
 
