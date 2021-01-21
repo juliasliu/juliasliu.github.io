@@ -8,7 +8,24 @@ layout: default
 		<!-- Blog -->
 	  	<section class="content">
 
-	    	<div class="title"><span class="highlight">Blog Posts</span></div>
+	    	<div class="title"><span class="highlight">Media Blog</span></div>
+				<div class="subtitle">
+					I word vomit about the food that I eat, recount the journeys to places that I have travelled to, and ramble about spontaneous activities and current events in life, all in one giant stream of consciousness.
+				</div>
+
+				<!-- <div class="blog-banner posts">
+					<div class="blog-post">
+						<a class="card image-card" href="{{ site.posts.first.url }}">
+							<img src="{{ site.posts.first.image | relative_url }}" alt="" />
+							<div class="image-card-title mt-3">{{ site.posts.first.title}}</div>
+							<em class="image-card-subtitle">{{ site.posts.first.content | strip_html | truncatewords: 50 }}</em>
+							<p class="light">{{ site.posts.first.date | date: "%b %-d, %Y" }}</p>
+						</a>
+					</div>
+					<div class="vlog-post">
+						<iframe src="https://www.youtube.com/embed/jlN5TyHyKa0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div> -->
 				<div class="blog-posts posts">
 					{% for post in site.posts %}
 							<a class="card image-card" href="{{ post.url }}">
@@ -21,16 +38,7 @@ layout: default
     	</section>
     	<!-- End blog -->
 
-		<!-- <div class="row youtube">
-			<section class="content" id="content1">
-				<h2 class="title">Vlogs</h2>
-				<div class="row youtube-video" ng-style="videoStyle">
-					<iframe id="youtube_video" ng-src="{{ videoSrc }}" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</section>
-		</div>
-
-		<div class="row twitter">
+		<!-- <div class="row twitter">
 			<section class="content" id="content2">
 				<h2 class="title">Twitter</h2>
 				<a class="twitter-timeline"

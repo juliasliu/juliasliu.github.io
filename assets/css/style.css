@@ -240,6 +240,10 @@ a.highlight:hover:before {
   	overflow: hidden;
 }
 
+.image-card .image-card-subtitle  {
+	color: #555 !important;
+}
+
 @keyframes card {
 	to {
 		margin: auto;
