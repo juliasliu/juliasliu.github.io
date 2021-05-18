@@ -1,7 +1,7 @@
 ---
 image: /assets/img/projects/groot.png
 name: gRoot
-caption: Visualization and customization of G Suite Admin Console data
+caption: Web visualization and customization of G Suite Admin Console. Google STEP Intern 2020 Capstone Project
 start: 2020-05-01
 end: 2020-08-01
 blurb: gRoot is an open-source web application that displays data in the G Suite Admin Console with search and filtering options and editing functionality. Organizational units are visualized in a top-down interactive tree diagram, groups in a zoomable circle-packing graph, and users in a zoomable tree-map.

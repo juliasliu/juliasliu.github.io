@@ -42,8 +42,24 @@ a, button {
 	transition: 0.5s;
 }
 
-.btn {
-	border-radius: 0 !important;
+.btn-dark {
+	background-color: #555 !important;
+	border-color: #555 !important;
+}
+
+.btn-dark:hover {
+	background-color: #333 !important;
+	border-color: #333 !important;
+}
+
+.btn-light {
+	background-color: #eee !important;
+	border-color: #eee !important;
+}
+
+.btn-light:hover {
+	background-color: #ddd !important;
+	border-color: #ddd !important;
 }
 
 ul, ol {
@@ -187,7 +203,7 @@ a.highlight:hover:before {
 }
 
 .heading-top {
-	line-height: 2.5rem;
+	line-height: 3rem;
 }
 
 .content .row {
@@ -195,9 +211,10 @@ a.highlight:hover:before {
 	margin: 0 5rem;
 }
 
-.card {
-	border: none !important;
-	border-radius: 0 !important;
+@media screen and (max-width: 685px) {
+	.content .row {
+		margin: 0 1rem;
+	}
 }
 
 .image-card {
@@ -215,7 +232,7 @@ a.highlight:hover:before {
 }
 
 .image-card:hover img {
-	animation: card .5s forwards;
+	animation: image-card .5s forwards;
 }
 
 .image-card:hover .image-card-text {
@@ -244,7 +261,7 @@ a.highlight:hover:before {
 	color: #555 !important;
 }
 
-@keyframes card {
+@keyframes image-card {
 	to {
 		margin: auto;
 		transform: scale(0.9, 0.9);

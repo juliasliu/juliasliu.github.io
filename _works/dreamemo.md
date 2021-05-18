@@ -1,7 +1,7 @@
 ---
 image: /assets/img/projects/dreamemo.png
 name: Dreamemo
-caption: Personal mood tracker and motivational dream journal
+caption: Personal mood tracker and dream journal with meditation features and motivational quotes
 start: 2016-04-01
 end: 2017-10-01
 blurb: Dreamemo is your personal dream journal where you can record daily entries about your dreams, feelings, and moods. Also equipped with beautiful backgrounds, ambient sounds, and inspiring quotes, Dreamemo is your perfect helper in motivating you every day and helping you relax.

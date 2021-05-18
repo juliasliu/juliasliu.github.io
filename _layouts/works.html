@@ -52,18 +52,33 @@ layout: default
 	  <section class="content">
 
 	    	<div class="title"><span class="highlight">Work Portfolio</span></div>
+			<div class="subtitle">
+				More projects coming soon!
+			</div>
+
 
 		    <div class="works mt-4">
-					{% assign sorted = site.works | sort: 'end' | reverse %}
-					{% for work in sorted %}
-		    	<a class="card image-card" href="{{ work.url }}">
-		    		<img src="{{ work.image | relative_url }}" alt="" />
-		    		<div class="image-card-text">
-			    		<h3 class="mt-3">{{ work.name }}</h3>
-			    		<h5>{{ work.caption }}</h5>
-		    		</div>
-		    	</a>
-					{% endfor %}
+				{% assign sorted = site.works | sort: 'end' | reverse %}
+				{% for work in sorted %}
+		    	<div class="card">
+		    		<img class="card-image" src="{{ work.image | relative_url }}" alt="" />
+		    		<div class="card-title mt-3 mb-0">{{ work.name }}</div>
+			    	<div>{{ work.caption }}</div>
+            		<div class="card-buttons">
+						{% for link in work.links %}
+						<a target="_blank" href="{{ link.url }}"
+						{% if link.style == "website" %} class="btn btn-light mx-2 my-2 website"
+						{% elsif link.style == "ios" %} class="btn btn-light mx-2 my-2 ios"
+						{% elsif link.style == "android" %} class="btn btn-light mx-2 my-2 android"
+						{% elsif link.style == "github" %} class="btn btn-light mx-2 my-2 github"
+						{% else %}
+						{% endif %}>
+							<span>{{ link.title }}</span>
+						</a>
+						{% endfor %}
+					</div>
+		    	</div>
+				{% endfor %}
 		    </div>
 
     	</section>

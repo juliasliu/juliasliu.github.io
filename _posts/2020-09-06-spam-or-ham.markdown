@@ -4,7 +4,7 @@ title:  Spam or Ham
 date:   2020-09-06 12:39:31 -0700
 categories: blog
 image: /assets/img/blog/2020-09-06-spam-musubi.jpg
-caption: Seaweed hugging the furikake-sprinkled packed rice and juicy spam strips
+caption: Seaweed hugging furikake-sprinkled packed rice and juicy spam strips
 ---
 This week has been a wild ride––it has been a little over a full week of school and I may or may not be staying up at 2 am once again, writing for my blog. As always, I cannot let my child that is my lonely thoughts feel abandoned.
 
