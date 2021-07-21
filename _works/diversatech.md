@@ -1,13 +1,13 @@
 ---
 image: /assets/img/projects/dt.png
-name: DiversaTech website
+name: DiversaTech
 caption: Website rehaul for DiversaTech Consulting, UC Berkeley's premier tech and product consulting organization
 start: 2019-06-01
 end: 2020-12-01
 blurb: This semester, as VP of Marketing, I took charge of redesigning our entire website and leading our online recruitment season for the fall 2020 semester. This involved designing promotional graphics for social media, scheduling postings and outreach initiatives on Facebook, Instagram, and LinkedIn, and writing monthly internal and external newsletters.
 links:
   - title: See website
-    url: http://diversatech.org/
+    url: http://diversatech.github.io/
     style: website
 featured: false
 ---
