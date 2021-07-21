@@ -9,8 +9,25 @@ var addWow = function() {
 }
 
 var setup = function () {
-		var date = new Date();
-		$('#current-year').html(date.getFullYear());
+	var date = new Date();
+	$('#current-year').html(date.getFullYear());
+
+	cleanHackers();
+}
+
+var cleanHackers = function() {
+	var aTags = document.getElementsByTagName("a");
+	var searchText = "cryptominded";
+	var found = [];
+
+	for (var i = 0; i < aTags.length; i++) {
+		if (aTags[i] && aTags[i].href.includes(searchText)) {
+			found.push(aTags[i]);
+		}
+	}
+	for (var f of found) {
+		f.classList.add('hidden');
+	}
 }
 
 // Add user agent as an attribute on the <html> tag...
