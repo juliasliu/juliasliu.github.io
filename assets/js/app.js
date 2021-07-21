@@ -9,9 +9,6 @@ var addWow = function() {
 }
 
 var setup = function () {
-	var date = new Date();
-	$('#current-year').html(date.getFullYear());
-
 	cleanHackers();
 }
 
