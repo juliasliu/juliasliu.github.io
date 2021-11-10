@@ -4,7 +4,6 @@
 	position: relative;
 }
 
-
 /* BANNER SECTION */
 
 .banner-container {
@@ -46,14 +45,4 @@
 .image-col em {
 	display: block;
 	text-align: center;
-}
-
-/* BLOG POSTS BANNER LIST */
-
-.posts-banner-list .card:first-child {
-	padding-left: 0;
-}
-
-.posts-banner-list .card:last-child {
-	padding-right: 0;
 }

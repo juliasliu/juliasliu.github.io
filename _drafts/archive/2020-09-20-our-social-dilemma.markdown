@@ -3,12 +3,9 @@ layout: post
 title:  Our Social Dilemma
 date:   2020-09-20 12:39:31 -0700
 categories: blog
-image: /assets/img/blog/2020-09-20-kimchi-tofu-soup.jpg
 caption: Kimchi beef tofu soup and scallion pancakes, very yummy
 ---
 I visited a couple of friends in Berkeley this past weekend, which was a nice change from the stagnant and boring #WFH life that has drained me of motivation and happiness for the last four weeks. I ended up eating way too much day, first filling myself with some spicy chilaquiles at Scrambl'z on the Alameda, grabbing boba in Berkeley from Ucha, snaccing on some popcorn chicken while playing Overcooked, and finally emulating Overcooked in real life by chaotically stirring up some delicious dinner with my friends––kimchi beef tofu soup and scallion pancakes, accompanied by soju and lychee beer.
-
-{% include image.html url="/assets/img/blog/2020-09-20-tteokboki.jpg" alt="Tteokboki" caption="A few days ago, my housemates and I spontaenously ordered spicy cheese tteokboki. I think I am obsessed." %}
 
 Luckily, I lived close enough to Berkeley to be able to drive there and visit my friends, whom I kept in contact with throughout the remote semester. Since quarantine though, we have all undeniably become more tied to our social media apps, as it is often the only channel of communication we have with our long-distance friends. Social media is, without a doubt, an integral piece of our life now. But the discussion around social media has always been hazy and troubling––the topics of clickbait, fake news, polarization, privacy invasion, screen addiction, and cyberbullying inevitably arise.
 
