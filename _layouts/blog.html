@@ -13,13 +13,13 @@ layout: default
 					what are brains if not to get stuck between these thoughts.
 				</div>
 
-				<div class="blog-posts posts">
+				<div class="post-container posts">
 					{% for post in site.posts %}
-							<a class="card blog-post" href="{{ post.url }}">
-								<div class="card-title mt-2">{{ post.title }}</div>
-								<div class="card-subtitle mb-2">{{ post.caption }}</div>
-								<p class="light">{{ post.date | date: "%b %-d, %Y" }}</p>
-							</a>
+						<a class="post" href="{{ post.url }}">
+							<div class="title">{{ post.title }}</div>
+							<div class="subtitle">{{ post.caption }}</div>
+							<p class="timestamp">{{ post.date | date: "%b %-d, %Y" }}</p>
+						</a>
 					{% endfor %}
 				</div>
     	</section>

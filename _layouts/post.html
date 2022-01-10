@@ -5,10 +5,10 @@ layout: default
 	<div class="blog">
 
 		<!-- Blog -->
-	  	<section class="content blog-post">
+	  	<section class="post-container content">
 	    	<div class="title"><span class="highlight">{{ page.title }}</span></div>
-			<div class="subtitle"><em>{{ page.caption }}</em></div>
-        	<div class="date">
+			<div class="subtitle">{{ page.caption }}</div>
+        	<div class="timestamp">
 				{{ page.date | date: "%b %-d, %Y" }} •
 				{% capture words %}
 				  {{ page.content | number_of_words }}
@@ -16,20 +16,20 @@ layout: default
 				{{ words | divided_by: 200 | append: " minute read" }}
 			</div>
 
-        	<div class="post-container">
+        	<div style="color: black;">
 				{{ content }}
 			</div>
 
-			<div class="post-container posts posts-banner-list">
-				{% for post in site.posts limit:3 %}
-					<a class="card blog-post" href="{{ post.url }}">
-						<div class="card-title mt-2">{{ post.title }}</div>
-						<div class="card-subtitle mb-2">{{ post.caption }}</div>
-						<p class="light">{{ post.date | date: "%b %-d, %Y" }}</p>
+			<div class="posts">
+				{% for post in site.posts limit:2 %}
+					<a class="card" href="{{ post.url }}">
+						<div class="title">{{ post.title }}</div>
+						<div class="subtitle">{{ post.caption }}</div>
+						<p class="timestamp light">{{ post.date | date: "%b %-d, %Y" }}</p>
 					</a>
 				{% endfor %}
 			</div>
-			<a href="/blog" class="highlight-link my-2">
+			<a href="/blog" class="highlight-link my-4 px-0">
 				Read more <i class="fa fa-angle-right"></i>
 			</a>
 	  	</section>
