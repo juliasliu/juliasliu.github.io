@@ -13,85 +13,16 @@ layout: default
 			    	<img class="heading memoji" src={{ "/assets/img/profiles/memoji_100.gif" | relative_url }} alt="julia memoji" />
 				   	<h1 class="heading heading-top my-2">Hi, I am <span class="colored">Julia Liu</span>. 👋</h1>
 			    	<h6 class="heading my-4">
-			    		I'm a senior <a class="highlight" href="https://www.berkeley.edu/">@UC Berkeley</a> studying Computer Science and Business Administration,
-						and am looking to pursue a career in product management. Previously, I was a 
-						Software Engineering Intern <a class="highlight" href="https://google.com/">@Google</a> and 
+			    		I'm a senior <a class="highlight" href="https://www.berkeley.edu/">@UC Berkeley</a> studying Computer Science and Business Administration.
+						Currently, I am a Product Management Intern <a class="highlight" href="https://tesla.com/">@Tesla</a>. 
+						Previously, I was a Software Engineering Intern <a class="highlight" href="https://google.com/">@Google</a> and 
 						Growth Equity Intern <a class="highlight" href="https://www.greycroft.com/">@Greycroft</a>.
 						</h6>
 					<a class="btn btn-dark mx-2 my-2" href="about">About me</a>
-					<a class="btn btn-dark mx-2 my-2" href="works">See my work</a>
+					<a class="btn btn-dark mx-2 my-2" href="work">See my work</a>
 	    	</section>
 	    </div>
     	<!-- End banner -->
-
-    	<!-- Work -->
-	    <!-- <section class="content">
-
-				<nav class="slide-navbar">
-					<ul>
-						{% assign sorted = site.works | where: "featured", "true" | sort: 'end' | reverse %}
-						{% for work in sorted %}
-							<li id="item{{ forloop.index0 }}" onclick="changeSlide({{ forloop.index0 }})"
-								{% if forloop.first %} class="slide-navbar-item active" {% else %} class="slide-navbar-item" {% endif %}>
-								<strong class="light">{{ work.name }}</strong>
-								<br>
-								<p class="light mb-0">{{ work.caption }}</p>
-							</li>
-						{% endfor %}
-					</ul>
-				</nav>
-
-				{% assign sorted = site.works | where: "featured", "true" | sort: 'end' | reverse %}
-				{% for work in sorted %}
-						<div id="slide{{ forloop.index0 }}"
-						{% if forloop.first %} class="slide work-slide active" {% else %} class="slide work-slide" {% endif %}>
-						    <div class="col-lg-6">
-						    	<h4>{{ work.name }}</h4>
-						    	<p class="light">{{ work.start | date: "%b %Y" }} - {% if work.end == "present" %} present {% else %} {{ work.end | date: "%b %Y" }} {% endif %}</p>
-						    	<p>{{ work.blurb }}</p>
-									<p><em>{{ work.skills }}</em></p>
-									{% for link in work.links %}
-								    <a target="_blank" href="{{ link.url }}"
-										{% if link.style == "website" %} class="btn btn-dark mx-2 my-2 website"
-										{% elsif link.style == "ios" %} class="btn btn-dark mx-2 my-2 ios"
-										{% elsif link.style == "android" %} class="btn btn-dark mx-2 my-2 android"
-										{% elsif link.style == "github" %} class="btn btn-dark mx-2 my-2 github"
-										{% else %}
-										{% endif %}>
-								    	<span>{{ link.title }}</span>
-								    </a>
-									{% endfor %}
-						    </div>
-						    <div class="col-lg-6 image-col">
-						    	<img src="{{ work.image | relative_url }}" alt="" />
-						    </div>
-						</div>
-				{% endfor %}
-    	</section> -->
-    	<!-- End work -->
-
-		<!-- Blog -->
-	    <!-- <section class="content">
-
-	    	<div class="title"><span class="highlight">Recent Posts</span></div>
-	    	<div class="subtitle">
-					A <del>weekly</del> dose of my caffeinated thoughts for your morning cup of tea.
-				</div>
-
-		    <div class="posts posts-banner-list">
-					{% for post in site.posts limit:3 %}
-							<a class="card image-card" href="{{ post.url }}">
-				    		<img src="{{ post.image | relative_url }}" alt="" />
-				    		<div class="image-card-title mt-3">{{ post.title}}</div>
-				    		<p class="light">{{ post.date | date: "%b %-d, %Y" }}</p>
-				    	</a>
-					{% endfor %}
-		    </div>
-		    <a href="blog" class="highlight-link my-2">
-	    		Read more <i class="fa fa-angle-right"></i>
-		    </a>
-    	</section> -->
-    	<!-- End blog -->
 
     </div>
 </div>
