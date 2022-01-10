@@ -8,66 +8,22 @@ layout: default
 		<!-- Blog -->
 	  	<section class="content">
 
-	    	<div class="title"><span class="highlight">Media Blog</span></div>
+	    	<div class="title"><span class="highlight">Blog</span></div>
 				<div class="subtitle">
-					I word vomit about the food that I eat, recount the journeys to places that I have travelled to, and ramble about spontaneous activities and current events in life, all in one giant stream of consciousness.
+					what are brains if not to get stuck between these thoughts.
 				</div>
 
-				<!-- <div class="blog-banner posts">
-					<div class="blog-post">
-						<a class="card image-card" href="{{ site.posts.first.url }}">
-							<img src="{{ site.posts.first.image | relative_url }}" alt="" />
-							<div class="image-card-title mt-3">{{ site.posts.first.title}}</div>
-							<em class="image-card-subtitle">{{ site.posts.first.content | strip_html | truncatewords: 50 }}</em>
-							<p class="light">{{ site.posts.first.date | date: "%b %-d, %Y" }}</p>
-						</a>
-					</div>
-					<div class="vlog-post">
-						<iframe src="https://www.youtube.com/embed/jlN5TyHyKa0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-				</div> -->
 				<div class="blog-posts posts">
 					{% for post in site.posts %}
-							<a class="card image-card" href="{{ post.url }}">
-								<img src="{{ post.image | relative_url }}" alt="" />
-								<div class="image-card-title mt-3">{{ post.title}}</div>
+							<a class="card blog-post" href="{{ post.url }}">
+								<div class="card-title mt-2">{{ post.title }}</div>
+								<div class="card-subtitle mb-2">{{ post.caption }}</div>
 								<p class="light">{{ post.date | date: "%b %-d, %Y" }}</p>
 							</a>
 					{% endfor %}
 				</div>
     	</section>
     	<!-- End blog -->
-
-		<!-- <div class="row twitter">
-			<section class="content" id="content2">
-				<h2 class="title">Twitter</h2>
-				<a class="twitter-timeline"
-				data-height="500"
-				href="https://twitter.com/julia_s_liu?ref_src=twsrc%5Etfw">Tweets by julia_s_liu</a>
-			</section>
-		</div> -->
-
-	    <!-- <section class="content" id="content3">
-			<h2 class="title">Medium</h2>
-			<div id="retainable-rss-embed"
-				data-rss="https://medium.com/feed/@juliasliu"
-				data-maxcols="3"
-				data-layout="grid"
-				data-poststyle="inline"
-				data-readmore="Read the rest"
-				data-buttonclass="btn btn-primary"
-				data-offset="-100"></div>
-		</section> -->
-
-		<!-- <section class="content" id="content4">
-			<h2 class="title">Instagram</h2>
-
-		</section>
-
-		<section class="content" id="content5">
-			<h2 class="title">Twitch</h2>
-
-		</section>	  -->
 
 	</div>
 </div>

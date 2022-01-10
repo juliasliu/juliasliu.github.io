@@ -5,9 +5,10 @@ layout: default
 	<div class="blog">
 
 		<!-- Blog -->
-	  	<section class="content">
+	  	<section class="content blog-post">
 	    	<div class="title"><span class="highlight">{{ page.title }}</span></div>
-        	<div class="subtitle">
+			<div class="subtitle"><em>{{ page.caption }}</em></div>
+        	<div class="date">
 				{{ page.date | date: "%b %-d, %Y" }} •
 				{% capture words %}
 				  {{ page.content | number_of_words }}
@@ -16,20 +17,14 @@ layout: default
 			</div>
 
         	<div class="post-container">
-				<div class="image-col my-4">
-					<img src="{{ page.image | relative_url }}" alt="" />
-					<em>{{ page.caption }}</em>
-				</div>
-				<div class="py-4">
-					{{ content }}
-				</div>
+				{{ content }}
 			</div>
 
 			<div class="post-container posts posts-banner-list">
 				{% for post in site.posts limit:3 %}
-						<a class="card image-card" href="{{ post.url }}">
-						<img src="{{ post.image | relative_url }}" alt="" />
-						<div class="image-card-title mt-3">{{ post.title}}</div>
+					<a class="card blog-post" href="{{ post.url }}">
+						<div class="card-title mt-2">{{ post.title }}</div>
+						<div class="card-subtitle mb-2">{{ post.caption }}</div>
 						<p class="light">{{ post.date | date: "%b %-d, %Y" }}</p>
 					</a>
 				{% endfor %}

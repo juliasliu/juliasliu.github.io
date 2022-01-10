@@ -218,7 +218,6 @@ a.highlight:hover:before {
 }
 
 .image-card {
-    background: none !important;
     display: block;
     position: relative;
 }
