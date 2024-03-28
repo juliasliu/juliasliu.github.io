@@ -7,21 +7,7 @@ layout: default
 
 		<!-- Blog -->
 	  	<section class="content">
-
-	    	<div class="title"><span class="highlight">Blog</span></div>
-				<div class="subtitle">
-					what are brains if not to get stuck between these thoughts.
-				</div>
-
-				<div class="post-container posts">
-					{% for post in site.posts %}
-						<a class="post" href="{{ post.url }}">
-							<div class="title">{{ post.title }}</div>
-							<div class="subtitle">{{ post.caption }}</div>
-							<p class="timestamp">{{ post.date | date: "%b %-d, %Y" }}</p>
-						</a>
-					{% endfor %}
-				</div>
+	    	<iframe src="https://julialiu.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
     	</section>
     	<!-- End blog -->
 
