@@ -1,0 +1,110 @@
+body.pinch-cursor {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;transform: scaleX(-1);'><text y='50%'>✋</text></svg>")
+            16 0, auto;
+}
+
+.header-container {
+    height: 10vh;
+}
+
+.content-container {
+    height: 90vh;
+}
+
+.about-card {
+    width: 20vw;
+    padding: 1rem;
+    border-radius: 0;
+    box-shadow: 2px 4px 5px rgb(0, 0, 0, 0.15);
+}
+
+.about-card .card-img-top {
+    height: 40vh;
+    width: 100%;
+    border-radius: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-card .card-body {
+    padding-left: 0;
+    padding-right: 0;
+    font-style: italic;
+    color: darkslategray;
+}
+
+.about-card#card-1 {
+    top: 15%;
+    left: 35%;
+}
+
+.about-card#card-1 .card-img-top {
+    background-image: url('../img/grad.jpg');
+}
+
+.about-card#card-2 {
+    top: 10%;
+    left: 40%;
+}
+
+.about-card#card-2 .card-img-top {
+    background-image: url('../img/hanbok.png');
+}
+
+.about-card#card-3 {
+    top: 20%;
+    left: 30%;
+}
+
+.about-card#card-3 .card-img-top {
+    background-image: url('../img/sunglasses mirror.png');
+}
+
+.about-card#card-4 {
+    top: 5%;
+    left: 35%;
+}
+
+.about-card#card-4 .card-img-top {
+    background-image: url('../img/google.png');
+}
+
+#draggable-item-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.draggable-item {
+    position: absolute;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;transform: scaleX(-1);'><text y='50%'>🫳</text></svg>")
+            16 0, auto;
+    user-select: none;
+    touch-action: none;
+}
+
+.draggable-item.dragging {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤏</text></svg>")
+            16 0, auto;
+}
+
+.carousel-inner {
+    width: auto;
+}
+
+.carousel-item img {
+    max-height: 85vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control-icon {
+    color: darkslategray;
+}
+
+.carousel-caption .caption-subtitle {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
